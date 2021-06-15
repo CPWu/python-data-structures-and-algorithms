@@ -16,6 +16,8 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 
 ### Arrays
 
+- [Dynamic Arrays](Dynamic%20Array)
+
 ### Lists
 
 ### Stacks
