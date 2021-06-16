@@ -11,23 +11,33 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 ### Sorting
 
 ### Recursion
+ - Recursion[]
+
+### Strings
 
 ## Data Structures
 
-### Arrays / Lists
+### Arrays or ArrayLists / Lists / Sets
 - [Dynamic Arrays](Dynamic%20Array)
 
 ### Linked Lists
+- [Linked List](Linked%20List) 
+- [Doubly Linked List](Doubly%20Linked%20List)
 
 ### Hash Tables
 
 ### Stacks and Queues
 - [Stack](Stack)
-
-### Strings
+- [Queue](Queue)
+- [Dequeue](Dequeue)
+- [Priority Queue]
+- [Double-ended Queue]
+- [Double-ended priority queue]
 
 ### Graphs
+- [Graph] 
 
 ### Trees
+- [Tree]
 
 ## Puzzles
