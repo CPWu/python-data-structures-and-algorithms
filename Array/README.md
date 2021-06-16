@@ -32,7 +32,6 @@ Task  | Big-O | Name |
 **Inserting** | O(n) | linear |
 **Deleting**  | O(n) | linear |
 
-
 ## Pros 
 - Good for storing similar contiguous data
 - O(1) Accessing Power
@@ -74,6 +73,13 @@ Task  | Big-O | Name |
 **Inserting** | O(n) | linear |
 **Deleting**  | O(n) | linear |
 
+- Can be wasted storage space
+
+
+## Pros 
+
+## Cons
+
 # List
 
 In Python, there is an abstract data type of type List that allows us to implement many of the data structures in other programming languages. Lists are one of 5 built-in data types in Python used to store collections of data. (The other 3 are Tuple, Set, Dictionary)
@@ -96,6 +102,10 @@ Method  | Big-O | Name | Description
 **reverse()**  | O(n) | linear |
 **sort()**  | O(n) | linear |
 
+
+## Pros 
+
+## Cons
 
 ## See Also
 [Array](https://en.wikipedia.org/wiki/Array)
