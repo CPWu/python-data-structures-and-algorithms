@@ -18,7 +18,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 ## Data Structures
 
 ### Arrays or ArrayLists / Lists / Sets
-- [Dynamic Arrays](Dynamic%20Array)
+- [Arrays](Array)
 
 ### Linked Lists
 - [Linked List](Linked%20List) 
