@@ -14,24 +14,20 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 
 ## Data Structures
 
-### Arrays
-
+### Arrays / Lists
 - [Dynamic Arrays](Dynamic%20Array)
 
-### Lists
-
-### Stacks
-
-### Queues
+### Linked Lists
 
 ### Hash Tables
 
-### Trees
+### Stacks and Queues
+- [Stack](Stacks)
 
-### Heaps
-
-### Sets
+### Strings
 
 ### Graphs
+
+### Trees
 
 ## Puzzles
