@@ -25,7 +25,7 @@ We always use the worst-case scenario when judging these data structures. This i
 
 ## Types of Time Complexity Equations
 
-6 Most Common Time Complexity Equations
+8 Common Time Complexity Equations
 
 Big-O | Name | Description
 ------| ---- | -----------
@@ -37,3 +37,8 @@ Big-O | Name | Description
 **O(n^3)** | cubic | **Poor performance.** If you have 100 items, this does 100^3 = 1,000,000 units of work. Doubling the input size makes it eight times slower. Example: matrix multiplication.
 **O(2^n)** | exponential | **Very poor performance.** You want to avoid these kinds of algorithms, but sometimes you have no choice. Adding just one bit to the input doubles the running time. Example: traveling salesperson problem.
 **O(n!)** | factorial | **Intolerably slow.** It literally takes a million years to do anything.  
+
+## See Also
+
+[Big-O Notation](https://en.wikipedia.org/wiki/Big_O_notation)
+
