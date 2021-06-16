@@ -22,7 +22,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 ### Hash Tables
 
 ### Stacks and Queues
-- [Stack](Stacks)
+- [Stack](Stack)
 
 ### Strings
 
