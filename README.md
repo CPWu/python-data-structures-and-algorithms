@@ -17,14 +17,16 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 
 ## Data Structures
 
-### Arrays or ArrayLists / Lists / Sets
+### Arrays or ArrayLists / Lists / Sets / Dictionaries
 - [Arrays](Array)
+- [Dictionaries](Dictionary)
 
 ### Linked Lists
 - [Linked List](Linked%20List) 
 - [Doubly-Linked List](Doubly-Linked%20List)
 
 ### Hash Tables
+- [Hash Tables](Hash%20Table)
 
 ### Stacks and Queues
 - [Stack](Stack)
@@ -35,9 +37,9 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Double-ended priority queue]
 
 ### Graphs
-- [Graph] 
+- [Graph](Graphs)
 
 ### Trees
-- [Tree]
+- [Tree](Trees)
 
 ## Puzzles
