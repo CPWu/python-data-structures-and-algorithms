@@ -27,10 +27,11 @@ Task  | Big-O | Name |
 ## Cons
 
 ## Use Cases
-- Undo/Redo
-- Back-paging
+- Job Scheduling
+- Printer Queueing
+- Modern Smartphone Cameras 
 
 ## See Also
 
-[Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
+[Stack](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
 
