@@ -29,6 +29,10 @@ Task  | Big-O | Name |
 
 ## Cons
 
+## Use Cases
+- Undo/Redo
+- Back-paging
+
 ## See Also
 
 [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
