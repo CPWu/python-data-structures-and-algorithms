@@ -31,7 +31,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 ### Stacks and Queues
 - [Stack](Stack)
 - [Queue](Queue)
-- [Dequeue](Dequeue)
+- [Deque](Deque)
 - [Priority Queue]
 - [Double-ended Queue]
 - [Double-ended priority queue]
