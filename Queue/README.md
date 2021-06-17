@@ -33,5 +33,5 @@ Task  | Big-O | Name |
 
 ## See Also
 
-[Stack](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
+[Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
 

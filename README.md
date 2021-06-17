@@ -22,7 +22,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 
 ### Linked Lists
 - [Linked List](Linked%20List) 
-- [Doubly Linked List](Doubly-Linked%20List)
+- [Doubly-Linked List](Doubly-Linked%20List)
 
 ### Hash Tables
 

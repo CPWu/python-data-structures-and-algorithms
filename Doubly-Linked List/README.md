@@ -1,10 +1,10 @@
-# Queue
+# Doubly-Linked List
 
-Goal: Use Python to Create a Queue Class. 
+Goal: Use Python to Create a Doubly-Linked List
 
 ## Overview
 
-A sequential access data structure in which every element is a separate object called a Node. The Node has two parts, the data and the reference. The reference or pointer which points to the Node in the list. 
+The Doubly-Linked List is a sequential access data structure which stores data in the form of Nodes. Compared to the Linked List, the Double-Linked List is able to traverse both forwards and backwards using pointers. 
 
 Common Linked List Operations: 
 
@@ -29,10 +29,11 @@ Task  | Big-O | Name |
 ## Cons
 
 ## Use Cases
-- Can be used to create Stacks and Queues
-- Playlists
+- Browser Cache
+- Undo/Redo
+- Open Recent
 
 ## See Also
 
-[Stack](https://en.wikipedia.org/wiki/Linked_list)
+[Doubly Linked List](https://en.wikipedia.org/wiki/Doubly_linked_list)
 

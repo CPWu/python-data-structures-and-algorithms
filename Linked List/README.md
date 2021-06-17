@@ -1,4 +1,4 @@
-# Queue
+# Linked List
 
 Goal: Use Python to Create a Queue Class. 
 
@@ -34,5 +34,5 @@ Task  | Big-O | Name |
 
 ## See Also
 
-[Stack](https://en.wikipedia.org/wiki/Linked_list)
+[Linked List](https://en.wikipedia.org/wiki/Linked_list)
 
