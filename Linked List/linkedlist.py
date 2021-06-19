@@ -1,30 +1,15 @@
-class Stack(object):
-    def __init__(self):
-        self.items = []
-    
-    def isEmpty(self):
-        return self.items == []
+class Node(object):
+    def __init__(self,value):
+        self.value = value
+        self.nextNode = None
 
-    def push(self,item):
-        self.items.append(item)
+a = Node(1)
+b = Node(2)
+c = Node(3)
 
-    def pop(self):
-        return self.items.pop()
+a.nextNode = b
+b.nextNode = c
 
-    def peek(self):
-        return self.items[len(self.items)-1]
+print(a.value)
 
-    def size(self):
-        return len(self.items)
-
-s = Stack()
-
-print (s.isEmpty())
-
-s.push(1)
-s.push('two')
-print(s.peek())
-s.push(True)
-print(s.size())
-print(s.isEmpty())
-print(s.pop())
+print(a.nextNode.value)

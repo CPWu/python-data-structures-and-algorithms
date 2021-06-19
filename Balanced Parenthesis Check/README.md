@@ -24,3 +24,11 @@ Expected Return: False
 ```
 
 ## Solution
+
+This is a very common interview question and is one of the main ways to check your knowledge of using Stacks! We will start our solution logic as such:
+
+First we will scan the string from left to right, and every time we see an opening parenthesis we push it to a stack, because we want the last opening parenthesis to be closed first. (Remember the FILO structure of a stack!)
+
+Then, when we see a closing parenthesis we check whether the last opened one is the corresponding closing match, by popping an element from the stack. If it’s a valid match, then we proceed forward, if not return false.
+
+Or if the stack is empty we also return false, because there’s no opening parenthesis associated with this closing one. In the end, we also check whether the stack is empty. If so, we return true, otherwise return false because there were some opened parenthesis that were not closed.

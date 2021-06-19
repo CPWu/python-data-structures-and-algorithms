@@ -1,6 +1,6 @@
 # Linked List
 
-Goal: Use Python to Create a Queue Class. 
+Goal: Use Python to Create a Linked List Class. 
 
 ## Overview
 
