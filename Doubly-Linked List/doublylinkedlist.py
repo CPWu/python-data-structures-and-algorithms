@@ -1,30 +1,17 @@
-class Stack(object):
-    def __init__(self):
-        self.items = []
-    
-    def isEmpty(self):
-        return self.items == []
+class DoublyLinkedListNode(object):
+    def __init__(self,value):
+        self.value = value
+        self.next_node = None
+        self.previous_node = None
 
-    def push(self,item):
-        self.items.append(item)
 
-    def pop(self):
-        return self.items.pop()
 
-    def peek(self):
-        return self.items[len(self.items)-1]
+a = DoublyLinkedListNode(1)
+b = DoublyLinkedListNode(2)
+c = DoublyLinkedListNode(3)
 
-    def size(self):
-        return len(self.items)
 
-s = Stack()
-
-print (s.isEmpty())
-
-s.push(1)
-s.push('two')
-print(s.peek())
-s.push(True)
-print(s.size())
-print(s.isEmpty())
-print(s.pop())
+a.next_node = b
+b.next_node = c
+b.previous_node = a
+c.previous_node = b
