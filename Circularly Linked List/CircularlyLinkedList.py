@@ -30,15 +30,15 @@ z = Node(3)
 x.next_node = y
 y.next_node = z
 
-class TestCycleCheck(object):
+# class TestCycleCheck(object):
     
-    def test(self,sol):
-        assert_equal(sol(a),True)
-        assert_equal(sol(x),False)
+#     def test(self,sol):
+#         assert_equal(sol(a),True)
+#         assert_equal(sol(x),False)
         
-        print "ALL TEST CASES PASSED"
+#         print "ALL TEST CASES PASSED"
         
-# Run Tests
+# # Run Tests
 
-t = TestCycleCheck()
-t.test(cycle_check)
+# t = TestCycleCheck()
+# t.test(cycle_check)

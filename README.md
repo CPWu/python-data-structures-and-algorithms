@@ -11,7 +11,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 ### Sorting
 
 ### Recursion
- - Recursion[]
+ - [Recursion](Recursion)
 
 ### Strings
 
@@ -40,10 +40,11 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Graph](Graphs)
 
 ### Trees
-- [Tree](Trees)
+- [Tree](Tree)
 
 ## Puzzles
 - [Balanced Parenthesis Check](Balanced%20Parenthesis%20Check)
 - [Queue Using Two Stacks](Queue%20Using%20Two%20Stacks)
 - [Circularly Linked List](Circularly%20Linked%20List)
 - [Linked List Reversal](Linked%20List%20Reversal)
+- [Recursive Problems](Recursion)
