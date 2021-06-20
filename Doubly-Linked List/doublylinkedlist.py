@@ -12,6 +12,6 @@ c = DoublyLinkedListNode(3)
 
 
 a.next_node = b
-b.next_node = c
+b.next_node = a
 b.previous_node = a
 c.previous_node = b
