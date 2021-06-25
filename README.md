@@ -7,8 +7,17 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 ## Algorithms
 
 ### Searching
-
+- [Depth First Search]()
+- [Breadth First Search]()
+- [Binary Search]()
+- 
 ### Sorting
+ - [Bubble Sort](Bubble%20Sort)
+ - [Selection Sort](Bubble%20Sort)
+ - [Insertion Sort](Bubble%20Sort)
+ - [Shell Sort](Bubble%20Sort)
+ - [Merge Sort](Bubble%20Sort)
+ - [Quick Sort](Bubble%20Sort)
 
 ### Recursion
  - [Recursion](Recursion)
@@ -27,12 +36,13 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 
 ### Hash Tables
 - [Hash Tables](Hash%20Table)
+- [Hash Maps]()
 
 ### Stacks and Queues
 - [Stack](Stack)
 - [Queue](Queue)
 - [Deque](Deque)
-- [Priority Queue]
+- [Priority Queue]()
 - [Double-ended Queue]
 - [Double-ended priority queue]
 
@@ -42,6 +52,9 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 ### Trees
 - [Tree](Tree)
 - [OOP Tree](OOP%20Tree)
+- [Binary Tree]
+- [AVL Tree]()
+- [Heap]
 
 ## Puzzles
 - [Balanced Parenthesis Check](Balanced%20Parenthesis%20Check)
