@@ -39,7 +39,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Doubly-Linked List](Doubly-Linked%20List)
 
 ### Hash Tables
-- [Hash Tables](Hash%20Table)
+- [Hash Table](Hash%20Table)
 - [Hash Maps]()
 
 ### Stacks and Queues
@@ -61,8 +61,8 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Heap]
 
 ## Puzzles
-- [Balanced Parenthesis Check](Balanced%20Parenthesis%20Check)
-- [Queue Using Two Stacks](Queue%20Using%20Two%20Stacks)
+- [Balanced Parenthesis Check](_Balanced%20Parenthesis%20Check)
+- [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)
 - [Circularly Linked List](Circularly%20Linked%20List)
 - [Linked List Reversal](Linked%20List%20Reversal)
 - [Recursive Problems](Recursion)
