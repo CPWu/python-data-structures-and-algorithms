@@ -1,20 +1,16 @@
-def selection_sort(array):
-    for fillslot in range(len(array)-1,0,-1):
-        positionOfMax = 0
-        for location in range(1,fillslot+1):
-            if array[location] > array[positionOfMax]:
-                positionOfMax = location
+def insertion_sort(array):
+    for item in range(1,len(array)):
+        currentValue = array[item]
+        position = item
 
-        temp = array[fillslot]
+        while position > 0 and array[position-1] > currentValue:
+            array[position] = array[position-1]
+            position = position-1
 
-        array[fillslot] = array[positionOfMax]
-        array[positionOfMax] = temp
+            array[position] = currentValue
 
+array = [4,6,2,7,4,1,9.11,23]
 
-
-
-array = [5,8,3,10,1]
-
-selection_sort(array)
+insertion_sort(array)
 
 print(array)
