@@ -1,4 +1,4 @@
-# Linked List
+# Bubble Sort
 
 Goal: Use Python to show Bubble Sort.
 

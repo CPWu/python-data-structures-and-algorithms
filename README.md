@@ -13,8 +13,8 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - 
 ### Sorting
  - [Bubble Sort](Bubble%20Sort)
- - [Selection Sort](Bubble%20Sort)
- - [Insertion Sort](Bubble%20Sort)
+ - [Selection Sort](Selection%20Sort)
+ - [Insertion Sort](Insertion%20Sort)
  - [Shell Sort](Bubble%20Sort)
  - [Merge Sort](Bubble%20Sort)
  - [Quick Sort](Bubble%20Sort)
