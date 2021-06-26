@@ -9,8 +9,9 @@ def insertion_sort(array):
 
             array[position] = currentValue
 
-array = [4,6,2,7,4,1,9.11,23]
+array = [4,6,2,7,4,1,9,11,23]
 
 insertion_sort(array)
 
 print(array)
+

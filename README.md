@@ -12,15 +12,19 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Binary Search]()
 - 
 ### Sorting
- - [Bubble Sort](Bubble%20Sort)
- - [Selection Sort](Selection%20Sort)
- - [Insertion Sort](Insertion%20Sort)
- - [Shell Sort](Bubble%20Sort)
- - [Merge Sort](Bubble%20Sort)
- - [Quick Sort](Bubble%20Sort)
+- [Selection Sort](Selection%20Sort)
+- [Insertion Sort](Insertion%20Sort)
+- [Shell Sort](Shell%20Sort)
+- [Merge Sort](Bubble%20Sort)
+- [Quick Sort](Bubble%20Sort)
+- [Heap Sort](Heap%20Sort)
+- [Bubble Sort](Bubble%20Sort)
+- [Counting Sort]()
+- [Bucket Sort]()
+- [Radix Sort]()
 
 ### Recursion
- - [Recursion](Recursion)
+- [Recursion](Recursion)
 
 ### Strings
 
