@@ -69,6 +69,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Array Pair Sum](_Array%20Pair%20_Sum)
 - [Find the Missing Element](_Find%20the%20Missing%20Element)
 - [Largest Continuous Sum](_Largest%20Continuous%20Sum)
+- [Sentence Reversal](_Sentence%20Reversal)
 - [Balanced Parenthesis Check](_Balanced%20Parenthesis%20Check)
 - [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)
 - [Circularly Linked List](Circularly%20Linked%20List)
