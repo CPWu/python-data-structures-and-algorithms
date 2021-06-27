@@ -28,3 +28,6 @@ Return: False
 ```
 anagram('aa','bb')
 ```
+
+## Solution
+There are two ways of thinking about this problem, if two strings have the same frequency of letters/element (meaning each letter shows up the same number of times in both strings) then they are anagrams of eachother. On a similar vien of logic, if two strings are equal to each other once they are sorted, then they are also anagrams of each other.
