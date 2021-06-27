@@ -4,6 +4,10 @@ Here you will find implementations of popular data structures and algorthms writ
 
 If you're a computer science student who needs to learn this stuff for exams -- or if you're a self-taught programmer who wants to brush up on the theory behind your craft -- you've come to the right place!
 
+## Where to start?
+- [What are data structures and algorithms?](What%20are%20Data%20Structures.md)
+- [Big-O Notation](Big-O%20Notation.md)
+
 ## Algorithms
 
 ### Searching
@@ -61,6 +65,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Heap]
 
 ## Puzzles
+- [Anagram Check](_Anagram%20Check)
 - [Balanced Parenthesis Check](_Balanced%20Parenthesis%20Check)
 - [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)
 - [Circularly Linked List](Circularly%20Linked%20List)
