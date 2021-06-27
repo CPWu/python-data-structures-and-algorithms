@@ -66,6 +66,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 
 ## Puzzles
 - [Anagram Check](_Anagram%20Check)
+- [Array Pair Sum](_Array%20Pair%20_Sum)
 - [Balanced Parenthesis Check](_Balanced%20Parenthesis%20Check)
 - [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)
 - [Circularly Linked List](Circularly%20Linked%20List)
