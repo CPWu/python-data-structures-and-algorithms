@@ -1,4 +1,4 @@
-# Find the Missing Element
+# String Compression
 
 ## Problem
 
