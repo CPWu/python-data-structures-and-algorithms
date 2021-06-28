@@ -28,6 +28,7 @@ def optimizedSortedSquareArray(array):
         else:
             newArray[index] = largerValue * largerValue
             largerValueIndex -= 1
+    newArray.sort()
     return newArray
 
 

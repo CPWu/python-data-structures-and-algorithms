@@ -74,6 +74,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Unique Characters in String](_Unique%20Characters%20in%20String)
 - [Validate Subsequence](_Validate%20Subsequence)
 - [Sorted Squared Array](_Sorted%20Squared%20Array)
+- [Tournament Winner](_Tournament%20Winner)
 - [Balanced Parenthesis Check](_Balanced%20Parenthesis%20Check)
 - [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)
 - [Circularly Linked List](Circularly%20Linked%20List)
