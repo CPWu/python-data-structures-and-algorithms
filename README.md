@@ -80,7 +80,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Contiguous Subarrays](_Contiguous%20Subarrays)
 
 - [Singly Linked List Cycle Check](_Singly%20Linked%20List%20Cycle%20Check)
-- [Linked List Reversal](Linked%20List%20Reversal)
+- [Reverse Linked List](Reverse%20Linked%20List)
 - [Linked List Nth to Last Node](Linked%20List%20Reversal)
 
 - [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)

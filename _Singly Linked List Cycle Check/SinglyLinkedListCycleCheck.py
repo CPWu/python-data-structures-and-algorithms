@@ -1,5 +1,4 @@
-from nose.tools import assert_equal
-
+# Time O(N), Space O(1)
 class Node(object):
 
     def __init__(self,value):
