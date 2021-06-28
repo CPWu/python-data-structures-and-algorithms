@@ -13,8 +13,7 @@ sequence = [1,6,-1,10]
 ```
 
 ## Complexity
-Time = O(n)
-Space = O(1)
+
 
 ## Solution
 

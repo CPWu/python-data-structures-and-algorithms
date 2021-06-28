@@ -1,4 +1,4 @@
-# Time O(N), Space O(1)
+# Time O(?), Space O(?)
 
 class Node(object):
     def __init__(self, value):
