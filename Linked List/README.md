@@ -19,8 +19,8 @@ Common Linked List Operations:
 
 Task  | Big-O | Name |
 ------| ----- | ----- |
-**Accessing** | O(n) | linear | 
-**Searching** | O(n) | linear |  
+**Accessing** | O(k) |  | 
+**Searching** | O(k) |  |  
 **Inserting** | O(1) or O(n) | constant/linear |
 **Deleting**  | O(1) or O(n) | constant/linear |
 

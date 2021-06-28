@@ -78,8 +78,12 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Passing Yearbooks](Passing%20Yearbooks)
 - [Non-Constructible Change](_Non-Constructible%20Change)
 - [Contiguous Subarrays](_Contiguous%20Subarrays)
-- [Balanced Parenthesis Check](_Balanced%20Parenthesis%20Check)
+
+- [Singly Linked List Cycle Check](_Singly%20Linked%20List%20Cycle%20Check)
+- [Linked List Reversal](Linked%20List%20Reversal)
+- [Linked List Nth to Last Node](Linked%20List%20Reversal)
+
 - [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)
 - [Circularly Linked List](Circularly%20Linked%20List)
-- [Linked List Reversal](Linked%20List%20Reversal)
 - [Recursive Problems](Recursion)
+- [Balanced Parenthesis Check](_Balanced%20Parenthesis%20Check)
