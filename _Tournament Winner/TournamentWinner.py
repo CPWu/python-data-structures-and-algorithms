@@ -1,7 +1,7 @@
 HOME_TEAM_WON = 1
 
 def tournamentWinner(competitions, results):
-    currentBestTeam = ""
+	currentBestTeam = ""
 	scores = {currentBestTeam: 0}
 	
 	for idx, competition in enumerate(competitions):
@@ -15,7 +15,7 @@ def tournamentWinner(competitions, results):
 		if scores[winningTeam] > scores[currentBestTeam]:
 			currentBestTeam = winningTeam
 			
-    return currentBestTeam
+	return currentBestTeam
 
 def updateScores(team, points, scores):
 	if team not in scores:
@@ -23,3 +23,12 @@ def updateScores(team, points, scores):
 		
 	scores[team] += points
 	
+competitions = [
+    ["HTML", "C#"],
+    ["C#", "Python"],
+    ["Python","HTML"]
+]
+
+results = [0,0,1]
+
+print(tournamentWinner(competitions,results))
