@@ -21,6 +21,6 @@ Each value arr[i] is in the range [1, n], and all values in arr[i] are distinct.
 
 ## Complexity
 Time = O(n)
-Space = O(k)
+Space = O(N)
 
 ## Solution
