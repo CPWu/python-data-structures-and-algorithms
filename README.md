@@ -76,6 +76,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Sorted Squared Array](_Sorted%20Squared%20Array)
 - [Tournament Winner](_Tournament%20Winner)
 - [Passing Yearbooks](Passing%20Yearbooks)
+- [Non-Constructible Change](_Non-Constructible%20Change)
 - [Balanced Parenthesis Check](_Balanced%20Parenthesis%20Check)
 - [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)
 - [Circularly Linked List](Circularly%20Linked%20List)
