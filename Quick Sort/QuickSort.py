@@ -1,50 +1,35 @@
-def quick_sort(arr):
-    
-    quick_sort_help(arr,0,len(arr)-1)
+def quickSort(array):
+	# First Pass is essentially the entire array.
+    quickSortHelper(array,0,len(array)-1)
+	return array
 
-def quick_sort_help(arr,first,last):
-    
-    if first<last:
-        
-
-        splitpoint = partition(arr,first,last)
-
-        quick_sort_help(arr,first,splitpoint-1)
-        quick_sort_help(arr,splitpoint+1,last)
-
-
-def partition(arr,first,last):
-    
-    pivotvalue = arr[first]
-
-    leftmark = first+1
-    rightmark = last
-
-    done = False
-    while not done:
-
-        while leftmark <= rightmark and arr[leftmark] <= pivotvalue:
-            leftmark = leftmark + 1
-
-        while arr[rightmark] >= pivotvalue and rightmark >= leftmark:
-            rightmark = rightmark -1
-
-        if rightmark < leftmark:
-            done = True
-        else:
-            temp = arr[leftmark]
-            arr[leftmark] = arr[rightmark]
-            arr[rightmark] = temp
-
-    temp = arr[first]
-    arr[first] = arr[rightmark]
-    arr[rightmark] = temp
-
-
-    return rightmark
+def quickSortHelper(array, startIdx, endIdx):
+	if startIdx >= endIdx:
+		return
+	pivotIdx = startIdx 
+	leftIdx = startIdx + 1
+	rightIdx = endIdx
+	while rightIdx >= leftIdx:
+		if array[leftIdx] > array[pivotIdx] and array[rightIdx] < array[pivotIdx]:
+			swap(leftIdx, rightIdx, array)
+		if array[leftIdx] <= array[pivotIdx]:
+			leftIdx += 1
+		if array[rightIdx] >= array[pivotIdx]:
+			rightIdx -= 1
+	swap(pivotIdx, rightIdx, array)
+	leftSubarrayIsSmaller = rightIdx - 1 - startIdx < endIdx - (rightIdx + 1)
+	if leftSubarrayIsSmaller:
+		quickSortHelper(array, startIdx, rightIdx -1)
+		quickSortHelper(array, rightIdx + 1, endIdx)
+	else:
+		quickSortHelper(array, rightIdx + 1, endIdx)
+		quickSortHelper(array, startIdx, rightIdx - 1)
+				 
+def swap(i, j, array):
+	array[i], array[j] = array[j], array[i]
 
 array = [4,6,2,7,4,1,9,11,23]
 
-quick_sort(array)
+quickSort(array)
 
 print(array)
