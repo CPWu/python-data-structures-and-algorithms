@@ -13,6 +13,6 @@ def selectionSort(array):
 
 array = [5,8,3,10,1]
 
-selection_sort(array)
+selectionSort(array)
 
 print(array)

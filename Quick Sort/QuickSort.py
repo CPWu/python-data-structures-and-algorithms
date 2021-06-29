@@ -1,7 +1,7 @@
 def quickSort(array):
 	# First Pass is essentially the entire array.
     quickSortHelper(array,0,len(array)-1)
-	return array
+    return array
 
 def quickSortHelper(array, startIdx, endIdx):
 	if startIdx >= endIdx:
