@@ -15,7 +15,6 @@ def reverseLinkedList(headNode):
         currentNode.next = previous
         previous = currentNode
         currentNode = next
-
     return previous
 
 # Create a list of 4 nodes

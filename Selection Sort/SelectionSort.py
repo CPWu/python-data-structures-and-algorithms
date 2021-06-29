@@ -1,16 +1,14 @@
-def selection_sort(array):
-    for fillslot in range(len(array)-1,0,-1):
-        positionOfMax = 0
-        for location in range(1,fillslot+1):
-            if array[location] > array[positionOfMax]:
-                positionOfMax = location
-
-        temp = array[fillslot]
-
-        array[fillslot] = array[positionOfMax]
-        array[positionOfMax] = temp
-
-
+def selectionSort(array):
+	for fillSlot in range(len(array)-1, 0, -1):
+		position_of_max = 0
+		
+		for index in range(1, fillSlot + 1):
+			if array[index] > array[position_of_max]:
+				position_of_max = index
+		temp = array[fillSlot]
+		array[fillSlot] = array[position_of_max]
+		array[position_of_max] = temp
+	return array
 
 
 array = [5,8,3,10,1]
