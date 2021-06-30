@@ -13,7 +13,13 @@ sequence = [1,6,-1,10]
 ```
 
 ## Complexity
-
+Time
+- Insertion: O(1)
+- Deletion: O(1)
+- Indexing: O(n)
+- Searching: O(n)
+Space
+- O(n)
 
 ## Solution
 

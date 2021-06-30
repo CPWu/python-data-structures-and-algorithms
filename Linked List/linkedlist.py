@@ -182,9 +182,9 @@ linkedList = LinkedList()
 
 # Add a few nodes
 linkedList.append("A")
-linkedList.append("B")
-linkedList.append("C")
-linkedList.append("D")
+# linkedList.append("B")
+# linkedList.append("C")
+# linkedList.append("D")
 
 # # Insert a node into linked list
 # linkedList.insert(linkedList.head.next, "Z")
@@ -216,7 +216,7 @@ linkedList.print_list()
 # linkedList.print_list()
 
 # Reverse Linked List (Recursive)
-linkedList.reverse_recursive()
-linkedList.print_list()
+# linkedList.reverse_recursive()
+# linkedList.print_list()
 
 
