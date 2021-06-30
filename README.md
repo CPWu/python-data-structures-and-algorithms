@@ -81,6 +81,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 
 - [Singly Linked List Cycle Check](_Singly%20Linked%20List%20Cycle%20Check)
 - [Reverse Linked List](_Reverse%20Linked%20List)
+- [Linked List Removed Duplicates](_Linked%20List%20Removed%20Duplicates)
 - [Linked List Nth to Last Node](_Nth%20to%20Last%20Node)
 - [Merged Two Sorted Linked Lists](_Merged%20Two%20Sorted%20Linked%20Lists)
 
