@@ -84,6 +84,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Linked List Removed Duplicates](_Linked%20List%20Removed%20Duplicates)
 - [Linked List Nth to Last Node](_Nth%20to%20Last%20Node)
 - [Merged Two Sorted Linked Lists](_Merged%20Two%20Sorted%20Linked%20Lists)
+- [Doubly Linked Lists - Pairs with Sum](Doubly%20Linked%20List%20Pairs%20With%20Sum)
 
 - [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)
 - [Circularly Linked List](Circularly%20Linked%20List)
