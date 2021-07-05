@@ -79,6 +79,8 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Non-Constructible Change](_Non-Constructible%20Change)
 - [Contiguous Subarrays](_Contiguous%20Subarrays)
 
+- [Nth Fibonacci](_Nth%20Fibonacci)
+- [Product Sum](_Product%20Sum)
 - [Singly Linked List Cycle Check](_Singly%20Linked%20List%20Cycle%20Check)
 - [Reverse Linked List](_Reverse%20Linked%20List)
 - [Linked List Removed Duplicates](_Linked%20List%20Removed%20Duplicates)
@@ -86,6 +88,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Merged Two Sorted Linked Lists](_Merged%20Two%20Sorted%20Linked%20Lists)
 - [Doubly Linked Lists - Pairs with Sum](Doubly%20Linked%20List%20Pairs%20With%20Sum)
 
+- [Stack Reverse String](Stack%20Reverse%20String)
 - [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)
 - [Circularly Linked List](Circularly%20Linked%20List)
 - [Recursive Problems](Recursion)

@@ -14,7 +14,7 @@ Therefore, the product sum of [x,y] is x+y; the product sum of [x,[y,z]] is x+2*
 
 Return: 5 // 0, 1, 1, 2, 3, 5
 ```
-n=6
+array = [5, 2, [7, -1], 3, [6, [-13,,8,4]]]
 ```
 
 ## Complexity
