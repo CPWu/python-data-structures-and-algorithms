@@ -1,4 +1,4 @@
-# Time: Space: 
+# Time: O(1) Space: O(1) 
 class MinMaxStack(object):
     def __init__(self):
         self.minMaxStack = []
@@ -25,4 +25,5 @@ class MinMaxStack(object):
 
     def getMax(self):
         return self.minMaxStack[len(self.minMaxStack) - 1]["max"]
+
 

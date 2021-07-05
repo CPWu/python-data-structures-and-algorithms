@@ -1,4 +1,4 @@
-# Stack
+# Min Max Stack
 
 ## Problem
 
