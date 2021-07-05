@@ -89,7 +89,9 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Doubly Linked Lists - Pairs with Sum](Doubly%20Linked%20List%20Pairs%20With%20Sum)
 
 - [Stack Reverse String](Stack%20Reverse%20String)
+- [Balanced Parenthesis Check](_Balanced%20Parenthesis%20Check)
+- [Min Max Stack](_Min%20Max%20Stack)
+
 - [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)
 - [Circularly Linked List](Circularly%20Linked%20List)
 - [Recursive Problems](Recursion)
-- [Balanced Parenthesis Check](_Balanced%20Parenthesis%20Check)
