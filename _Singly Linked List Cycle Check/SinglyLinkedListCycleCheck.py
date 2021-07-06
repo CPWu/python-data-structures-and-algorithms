@@ -1,36 +1,84 @@
-# Time O(N), Space O(1)
 class Node(object):
-
-    def __init__(self,value):
-        self.value = value
+    def __init__(self, data):
+        self.data = data
         self.next = None
+
+class CircularLinkedList(object):
+    def __init__(self):
+        self.head = None
+
+    def append(self, data):
+        # Empty Linked List
+        if self.head is None:
+            self.head = Node(data)
+            self.head.next = self.head
+        
+        else:
+            new_node = Node(data)
+            current_node = self.head
+            while current_node.next != self.head:
+                current_node = current_node.next
+            current_node.next = new_node
+            new_node.next = self.head
+
+    def prepend(self, data):
+        new_node = Node(data)
+        current_node = self.head
+        new_node.next = self.head
+        
+        if self.head is None:
+            new_node.next = new_node
+        else:
+            while current_node.next != self.head:
+                current_node = current_node.next
+            current_node.next = new_node
+        self.head = new_node
+
+    def print(self):
+        current_node = self.head
+        while current_node:
+            print(current_node.data)
+            current_node = current_node.next
+            if current_node == self.head:
+                break
     
-def cycle_check(node):
-    # Create two markers
-    marker1 = node
-    marker2 = node
+    def remove(self, key):
+        if self.head.data == key:
+            current_node = self.head
+            while current_node.next != self.head:
+                current_node = current_node.next
+            current_node.next = self.head.next
+            self.head = self.head.next
+        else:
+            current_node = self.head
+            prev = None
+            while current_node.next != self.head:
+                prev = current_node
+                current_node = current_node.next
+                if current_node.data == key:
+                    prev.next = current_node.next
+                    current_node = current_node.next
 
-    # Go until the end of the list
-    while marker2 != None and marker2.next != None:
+    def __len__(self):
+        current_node = self.head
+        count = 0
+        while current_node:
+            count += 1
+            current_node = current_node.next
+            if current_node == self.head:
+                break
+        return count
 
-        # Note
-        marker1 = marker1.next
-        marker2 = marker2.next.next
+    def is_circular_linked_list(self, input_list):
+        current = input_list.head
+        while current.next:
+            current = current.next
+            if current.next == input_list.head:
+                return True
+        return False
 
-         # Check if the markers have matched
-        if marker2 == marker1:
-            return True
-
-    # Case where marker ahead reaches the end of the list
-    return False
-
-# CREATE CYCLE LIST
-a = Node(1)
-b = Node(2)
-c = Node(3)
-
-a.nextnode = b
-b.nextnode = c
-c.nextnode = a # Cycle Here!
-
-
+circularLinkedList = CircularLinkedList()
+circularLinkedList.append("A")
+circularLinkedList.append("B")
+circularLinkedList.append("C")
+circularLinkedList.append("D")
