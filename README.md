@@ -60,6 +60,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 
 ### Trees
 - [Tree](Tree)
+- [Binary Tree](Binary%20Tree)
 - [OOP Tree](OOP%20Tree)
 - [Binary Tree]
 - [AVL Tree]()
