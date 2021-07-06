@@ -88,6 +88,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Linked List Nth to Last Node](_Nth%20to%20Last%20Node)
 - [Merged Two Sorted Linked Lists](_Merged%20Two%20Sorted%20Linked%20Lists)
 - [Doubly Linked Lists - Pairs with Sum](_Doubly%20Linked%20List%20Pairs%20With%20Sum)
+- [Josephus Problem](_Josephus%20Problem)
 
 - [Stack Reverse String](_Stack%20Reverse%20String)
 - [Balanced Parenthesis Check](_Balanced%20Parenthesis%20Check)
