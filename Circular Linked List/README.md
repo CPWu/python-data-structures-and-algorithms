@@ -1,4 +1,4 @@
-# Circularly Linked List
+# Circular Linked List
 
 ## Problem
 

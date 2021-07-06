@@ -40,6 +40,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 
 ### Linked Lists
 - [Linked List](Linked%20List) 
+- [Circular Linked List](Circular%20Linked%20List)
 - [Doubly-Linked List](Doubly-Linked%20List)
 
 ### Hash Tables
@@ -93,5 +94,4 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Min Max Stack](_Min%20Max%20Stack)
 
 - [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)
-- [Circularly Linked List](Circularly%20Linked%20List)
 - [Recursive Problems](Recursion)

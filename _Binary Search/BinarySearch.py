@@ -28,9 +28,9 @@ def iBinarySearchHelper(array, target, left, right):
     while left <= right:
         middle = (left + right) // 2
         potentialMatch = array[middle]
-        if target == array[middle]:
+        if target == potentialMatch:
             return middle
-        elif target < array[middle]:
+        elif target < potentialMatch:
             right = middle - 1
         else: 
             left = middle + 1
