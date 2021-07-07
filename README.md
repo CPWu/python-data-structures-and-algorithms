@@ -95,5 +95,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Balanced Parenthesis Check](_Balanced%20Parenthesis%20Check)
 - [Min Max Stack](_Min%20Max%20Stack)
 
+- [Height and Size of Binary Tree](_Height%20And%20Size%20Of%20Binary%20Tree)
+
 - [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)
 - [Recursive Problems](Recursion)
