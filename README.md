@@ -96,6 +96,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Min Max Stack](_Min%20Max%20Stack)
 
 - [Height and Size of Binary Tree](_Height%20And%20Size%20Of%20Binary%20Tree)
+- [Binary Search Tree](_Binary%20Search%20Tree)
 
 - [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)
 - [Recursive Problems](Recursion)
