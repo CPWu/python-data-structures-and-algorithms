@@ -11,7 +11,11 @@ class Node(object):
         return self
 
     def depthFirstSearch(self, array):
-        array.append(self.name)
-        for child in self.children:
-            child.depthFirstSearch(array)
+        queue = [self]
+        while len(queue) > 0:
+            current_node = queue.pop(0)
+            array.append(current_node.name)
+            for child in current_node.children:
+                queue.append(child)
         return array
+        
