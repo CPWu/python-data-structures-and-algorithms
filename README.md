@@ -13,7 +13,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 ### Searching
 - [Depth First Search]()
 - [Breadth First Search]()
-- [Binary Search](_Binary%20Search)
+- [Binary Search](Binary%20Search)
 - 
 ### Sorting
 - [Selection Sort](Selection%20Sort)

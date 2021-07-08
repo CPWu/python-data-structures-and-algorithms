@@ -1,20 +1,23 @@
-# Linked List
+# Binary Search
 
-Goal: Use Python to implement Binary Search. 
+## Problem
 
-## Overview
-Instead of searching the list in sequence, a binary search will start by examining the middle item. This applies because in a binary search the list is sorted in order. A binary search will start by examining the middle item, if that item is the one we are searching for than we are done. If the item we are searching for is greater than the middle item, we know that the entire lower half of the list as well as the middle item can be eliminated from further consideration. The item, if it is in the list, must be in the upper half. We then just repeat this process with the upper half.
+Write a function that takes in a sorted array of integers as well as a target integer. The funcion should use the Binary Search algorithm to determine if the target integer is contained in the array and should return its index if it is, otherwise -1. 
 
-## Complexity (Worst Case)
-O(nlogn)
+## Example
 
-## Pros 
+Output: target = 33
+```
+array = [0, 1, 21, 33, 45, 45, 61, 71, 72, 73]
 
-## Cons
+```
 
-## Use Cases
+## Complexity
+Time
+- 
+Space
+- O(n)
 
-## See Also
 
-[Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
+## Solution
 

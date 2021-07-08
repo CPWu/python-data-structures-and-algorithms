@@ -1,33 +1,37 @@
-def binary_search(arr,ele) -> bool:
-    
-    # First and last index values
-    first = 0
-    last = len(arr) - 1
-    
-    found = False
-    
-    while first <= last and not found:
-        
-        mid = (first+last)//2 # or // for Python 3
-        
-        # Match found
-        if arr[mid] == ele:
-            found = True
-        
-        # Set new midpoints up or down depending on comparison
-        else:
-            # Set down
-            if ele < arr[mid]:
-                last = mid -1
-            # Set up 
-            else:
-                first = mid + 1
-                
-    return found
+# Using Recursion
+# Time: O(log(n)) Space: O(log(n)) 
+def binarySearch(array, target):
+    return binarySearchHelper(array, target, 0, len(array)-1)
 
-arr = [1,2,3,4,5,6,7,8,9,10]
+def binarySearchHelper(array, target, left, right):
+    if left > right:
+        return -1
+    middle = (left + right) // 2 # Python Rounds Down
+    potentialMatch = array[middle]
+    if target == potentialMatch:
+        return middle
+    elif target < potentialMatch:
+        return binarySearchHelper(array, target, left, middle -1)
+    else:
+        return binarySearchHelper(array, target, middle + 1, right)
 
-binary_search(arr, 14)
 
-print(binary_search)
+array = [0, 1, 21, 33, 45, 45, 61, 71, 72, 73]
+print(binarySearch(array, 72))
 
+# Interative Approach
+# Time: O(log(n)) Space: O(1) 
+def iBinarySearch(array, target):
+    return iBinarySearchHelper(array, target, 0, len(array)-1)
+
+def iBinarySearchHelper(array, target, left, right):
+    while left <= right:
+        middle = (left + right) // 2
+        potentialMatch = array[middle]
+        if target == potentialMatch:
+            return middle
+        elif target < potentialMatch:
+            right = middle - 1
+        else: 
+            left = middle + 1
+    return -1
