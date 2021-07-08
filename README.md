@@ -11,8 +11,8 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 ## Algorithms
 
 ### Searching
-- [Depth First Search]()
-- [Breadth First Search]()
+- [Depth First Search](Depth%20First%20Search)
+- [Breadth First Search](Breadth%20First%20Search)
 - [Binary Search](Binary%20Search)
 - 
 ### Sorting
@@ -45,7 +45,6 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 
 ### Hash Tables
 - [Hash Table](Hash%20Table)
-- [Hash Maps]()
 
 ### Stacks and Queues
 - [Stack](Stack)
@@ -56,15 +55,14 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Double-ended priority queue]
 
 ### Graphs
-- [Graph](Graphs)
+- [Graph](Graph)
 
 ### Trees
 - [Tree](Tree)
 - [Binary Tree](Binary%20Tree)
-- [OOP Tree](OOP%20Tree)
-- [Binary Tree]
+- [Min Heap](Min%20Heap)
+- [OOP Tree]()
 - [AVL Tree]()
-- [Heap]
 
 ## Puzzles
 - [Anagram Check](_Anagram%20Check)
