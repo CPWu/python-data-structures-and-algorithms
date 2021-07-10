@@ -98,3 +98,6 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 
 - [Queue Using Two Stacks](_Queue%20Using%20Two%20Stacks)
 - [Recursive Problems](Recursion)
+
+- [Shortest Word Distance II](_Shortest%20Word%20Distance$20II)
+- [Nested List Weight Sum II](_Nested%20List%20Weight%20Sum%20II)
