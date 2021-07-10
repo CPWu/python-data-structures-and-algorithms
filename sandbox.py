@@ -414,3 +414,208 @@
 #             node.next.prev = node.prev
 #         node.prev = None
 #         node.next = None
+
+class Stack(object):
+    def __init__(self):
+        self.items = []
+
+    # pushes item onto the end of the list/stack
+    def push(self, data):
+        self.items.append(data)
+
+    # Takes the last element off the (list)/stack
+    def pop(self):
+        if not self.is_empty():
+           return self.items.pop()
+
+    # Take a look at the last item but dont do anything else
+    def peek(self):
+        if not self.is_empty():
+            return self.items[len(self.items) - 1]
+
+    def is_empty(self):
+        return self.items == 0
+
+    def __len__(self):
+        return self.size()
+
+    def size(self):
+        return len(self.items)
+
+
+class Queue(object):
+    def __init__(self):
+        self.items = []
+    
+    def enqueue(self,item):
+        self.items.insert(0, item)
+    
+    def dequeue(self):
+        if not self.is_empty():
+            return self.items.pop()
+    
+    def is_empty(self):
+        return len(self.items) == 0
+
+    # Front of the Queue
+    def peek(self):
+        if not self.is_empty():
+            return self.items[-1].value
+
+    def __len__(self):
+        return self.size()
+
+    def size(self):
+        return len(self.items)
+
+# Binary Tree
+class Node(object):
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+class BinaryTree(object):
+    def __init__(self, root):
+        self.root = Node(root)
+
+    # Depth First Search - Preorder, Inorder, Postorder
+    # Print Method Selector
+    def print_tree(self, traversal_type):
+        if traversal_type == "preorder":
+            return self.preorder_print(tree.root, "")
+        elif traversal_type == "inorder":
+            return self.inorder_print(tree.root, "")
+        elif traversal_type == "postorder":
+            return self.postorder_print(tree.root, "")
+        elif traversal_type == "levelorder":
+            return self.levelorder_print(tree.root)
+        elif traversal_type == "reverseorder":
+            return self.reverseorder_print(tree.root)
+
+    # PreOrder
+    def preorder_print(self, start, traversal):
+        # Root - Left - Right
+        # Check if Node is Null
+        if start:
+            traversal += (str(start.value) + "-")
+            traversal = self.preorder_print(start.left, traversal)
+            traversal = self.preorder_print(start.right, traversal)
+        return traversal
+
+    # InOrder
+    def inorder_print(self, start, traversal):
+        # Left - Root - Right
+        if start:
+            traversal = self.inorder_print(start.left, traversal)
+            traversal += (str(start.value) + "-")
+            traversal = self.inorder_print(start.right, traversal)
+        return traversal
+
+    # PostOrder
+    def postorder_print(self, start, traversal):
+        # Left - Right - Root 
+        if start:
+            traversal = self.postorder_print(start.left, traversal)
+            traversal = self.postorder_print(start.right, traversal)
+            traversal += (str(start.value) + "-")
+        return traversal
+
+    # Breadth First Search - Level Order Traversal, Reverse Order Traversal
+    def levelorder_print(self, start):
+        if start is None:
+            return
+        queue = Queue()
+        queue.enqueue(start)
+
+        traversal = ""
+        while len(queue) > 0:
+            traversal += str(queue.peek()) + "-"
+            node = queue.dequeue()
+            
+            if node.left:
+                queue.enqueue(node.left)
+            if node.right:
+                queue.enqueue(node.right)
+        return traversal
+
+    def reverseorder_print(self, start):
+        if start is None:
+            return
+
+        queue = Queue()
+        stack = Stack()
+        queue.enqueue(start)
+
+        traversal = ""
+        while len(queue) > 0:
+            node = queue.dequeue()
+            stack.push(node)
+
+            if node.left:
+                queue.enqueue(node.right)
+            if node.right:
+                queue.enqueue(node.left)
+        
+        while len(stack) > 0:
+            node = stack.pop()
+            traversal += str(node.value) + "-"
+        return traversal
+
+    # Height of Tree - (Levels from Root to Leaf)
+    def height_of_tree(self, start):
+        if start is None:
+            return -1
+        left_height = self.height_of_tree(start.left)
+        right_height = self.height_of_tree(start.right)
+
+        return 1 + max(left_height, right_height)
+
+    # Size of Tree - (Number of Nodes in Tree)
+    def size_of_tree(self):
+        if self.root is None:
+            return 0
+        stack = Stack()
+        stack.push(self.root)
+        count = 1
+
+        while stack:
+            node = stack.pop()
+            if node.left:
+                count += 1
+                stack.push(node.left)
+            if node.right:
+                count += 1
+                stack.push(node.right)
+        return count
+
+    def size_of_tree_recursive(self, node):
+        if node is None:
+            return 0
+        return 1 + self.size_of_tree_recursive(node.left) + self.size_of_tree_recursive(node.right)
+
+#                   1
+#   
+#           2               3
+#       
+#       4       5       6       7
+#
+
+# Preorder: 1, 2, 4, 5, 3, 6, 7
+# Inorder: 4, 2, 5, 1, 6, 3, 7
+# Postorder: 4, 5, 2, 6, 7, 3, 1
+tree = BinaryTree(1)
+tree.root.left = Node(2)
+tree.root.right = Node(3)
+tree.root.left.left = Node(4)
+tree.root.left.right = Node(5)
+tree.root.right.left = Node(6)
+tree.root.right.right = Node(7)
+print(tree.print_tree("preorder"))
+print(tree.print_tree("inorder"))
+print(tree.print_tree("postorder"))
+print(tree.print_tree("levelorder"))
+print(tree.print_tree("reverseorder"))
+print(tree.height_of_tree(tree.root))
+print(tree.size_of_tree())
+print(tree.size_of_tree_recursive(tree.root))

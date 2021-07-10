@@ -22,4 +22,3 @@ class Solution:
 
 
 solution = Solution()
-print(solution.depthSumInverse([[1,1],2,[1,1]]))

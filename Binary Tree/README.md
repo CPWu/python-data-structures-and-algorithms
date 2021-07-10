@@ -75,7 +75,10 @@ Depth First Search
     - Traverse the right subtree by recursively calling the inorder function.
     - Inorder: A, B, C, D, E, F, G, H, I
 - Postorder Traversal
-
+    - Check if the current node is empty/null
+    - Traverse the left subtree by recursively calling the post-order function
+    - Traverse the right subtree by recursively calling the post-order function
+    - Display the data part of the root (or current node)
 Breadth First Search
 
 
