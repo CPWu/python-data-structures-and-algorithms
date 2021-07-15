@@ -104,3 +104,4 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Number of Islands](_Number%20of%20Islands)
 - [Invert Binary Tree](_Invert%20Binary%20Tree)
 - [Branch Sums](_Branch%20Sums)
+- [Sum of Linked Lists](_Sum%20Of%20inked%20Lists)
