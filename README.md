@@ -102,4 +102,5 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Shortest Word Distance II](_Shortest%20Word%20Distance$20II)
 - [Nested List Weight Sum II](_Nested%20List%20Weight%20Sum%20II)
 - [Number of Islands](_Number%20of%20Islands)
-- [Insert Binary Tree](_Invert%20Binary%20Tree)
+- [Invert Binary Tree](_Invert%20Binary%20Tree)
+- [Branch Sums](_Branch%20Sums)
