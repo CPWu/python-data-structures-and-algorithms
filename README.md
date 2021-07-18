@@ -106,3 +106,5 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Branch Sums](_Branch%20Sums)
 - [Sum of Linked Lists](_Sum%20Of%20inked%20Lists)
 - [Smallest Sum Contiguous Subarray](_Smallest%20Sum%20Contiguous%20Subarray)
+
+- [Two Sum](_Two%20Sum)
