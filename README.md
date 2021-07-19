@@ -108,3 +108,4 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Smallest Sum Contiguous Subarray](_Smallest%20Sum%20Contiguous%20Subarray)
 
 - [Two Sum](_Two%20Sum)
+- [Rotational Cipher](_Rotational%20Cipher)
