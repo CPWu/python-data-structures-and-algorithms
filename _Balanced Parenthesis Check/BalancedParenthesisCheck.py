@@ -3,25 +3,16 @@ def balance_check(s):
     if len(s)%2 != 0:
         return False
 
-    opening = set('([{')
-
-    matches = set([('(',')'),('[',']'),('{','}')])
-
-    stack = []
-
-    for parenthesis in s:
-        if parenthesis in opening:
-            stack.append(parenthesis)
-        else:
-            if len(stack) == 0:
-                return False
-            
-            last_open = stack.pop()
-
-            if(last_open,parenthesis) not in matches:
-                return False
-    
-    return len(stack) == 0
+    dic = {'{':'}','[':']','(':')'}
+    lst =[]
+    for i in s:
+        if i in dic.keys():
+            lst.append(dic[i])
+        elif len(lst)>0 and i==lst[-1]:
+            lst.pop()
+        else: 
+            return False
+    return len(lst) == 0
 
 
 
