@@ -1,43 +1,43 @@
-def compress(s):
-    """
-    This solution compresses without checking. Known as the RunLength Compression algorithm.
-    """
+def compress(chars):
     
-    # Begin Run as empty string
-    r = ""
-    l = len(s)
-    
-    # Check for length 0
-    if l == 0:
-        return ""
-    
-    # Check for length 1
-    if l == 1:
-        return s + "1"
-    
-    #Intialize Values
-    last = s[0]
-    cnt = 1
-    i = 1
-    
-    while i < l:
-        
-        # Check to see if it is the same letter
-        if s[i] == s[i - 1]: 
-            # Add a count if same as previous
-            cnt += 1
-        else:
-            # Otherwise store the previous data
-            r = r + s[i - 1] + str(cnt)
-            cnt = 1
-            
-        # Add to index count to terminate while loop
-        i += 1
-    
-    # Put everything back into run
-    r = r + s[i - 1] + str(cnt)
-    
-    return r
+    # determine the length of the string
+    length = len(chars)
 
+    if length < 2:
+        return length
 
-print(compress('AAAAABBBBCCCC'))
+    # Start position of the contiguous group of characters thats being read in.
+    anchor = 0
+
+    # position to Write Next
+    # we start with 0 then increase it whenever we write to the array
+    write = 0    
+
+    # we go through each caharcter till we fiand a pos where the next is not equal to it
+    # then we check if it has appeared more than once using the anchor and r(read) pointers
+    # 1. iterate till we find a diffrent char
+    # 2. record the no. of times the current char was repeated
+    for pos, char in enumerate(chars):    
+        # check if we have reached the end or a different char
+        # check if we are end or the next char != the current
+        if (pos + 1) == length or char != chars[pos+1]:
+            chars[write] = char
+            write += 1
+
+            # check if char has been repeated
+            # have been duplicated if the read pointer is ahead of the anchor pointer
+            if pos > anchor:
+                # check no. of times char has been repeated
+                repeated_times = pos - anchor + 1
+
+                # write the number
+                for num in str(repeated_times):
+                    chars[write] = num
+                    write += 1
+
+            # move the anchor to the next char in the iteration
+            anchor = pos + 1     
+    return write
+
+chars = ["a","a","b","b","c","c","c"]
+print(compress(chars))
