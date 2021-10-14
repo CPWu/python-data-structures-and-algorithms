@@ -5,28 +5,27 @@ Here you will find implementations of popular data structures and algorthms writ
 If you're a computer science student who needs to learn this stuff for exams -- or if you're a self-taught programmer who wants to brush up on the theory behind your craft -- you've come to the right place!
 
 ## Where to start?
-- [What are data structures and algorithms?](What%20are%20Data%20Structures.md)
-- [Big-O Notation](Big-O%20Notation.md)
+- [What are data structures and algorithms?](what-are-data-structures.md)
+- [Asymptotic Analysis](asymptotic-analysis.md)
+- [Big-O Notation](big-o-notation.md)
 
-## Algorithms
+## Sorting
+- [Bubble Sort](Selection%20Sort)
+- [Selection Sort](Selection%20Sort)
+- [Insertion Sort](Selection%20Sort)
+- [Merge Sort](Selection%20Sort)
+- [Heap Sort](Selection%20Sort)
+- [Quick Sort](Selection%20Sort)
+- [Radix Sort](Selection%20Sort)
+- [Count Sort](Selection%20Sort)
+- [Bucket Sort](Selection%20Sort)
+- [Shell Sort](Selection%20Sort)
 
 ### Searching
 - [Depth First Search](Depth%20First%20Search)
 - [Breadth First Search](Breadth%20First%20Search)
 - [Binary Search](Binary%20Search)
-- 
-### Sorting
-- [Selection Sort](Selection%20Sort)
-- [Insertion Sort](Insertion%20Sort)
-- [Shell Sort](Shell%20Sort)
-- [Merge Sort](MErge%20Sort)
-- [Quick Sort](Quick%20Sort)
-- [Heap Sort](Heap%20Sort)
-- [Bubble Sort](Bubble%20Sort)
-- [Counting Sort]()
-- [Bucket Sort]()
-- [Radix Sort]()
-
+  
 ### Recursion
 - [Recursion](Recursion)
 
