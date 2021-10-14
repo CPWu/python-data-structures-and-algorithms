@@ -8,6 +8,6 @@ The bubble sort makes multiple passes through a list. It compares adjacent items
 
 ## See Also
 
-[Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)
-[Visual Algo](https://visualgo.net/en/sorting)
-[Toptal](https://www.toptal.com/developers/sorting-algorithms/bubble-sort)
+- [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort)
+- [Visual Algo](https://visualgo.net/en/sorting)
+- [Toptal](https://www.toptal.com/developers/sorting-algorithms/bubble-sort)

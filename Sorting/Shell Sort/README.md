@@ -16,6 +16,6 @@ The shell sort improves on the insertion sort by breaking the original list into
 
 ## See Also
 
-[Shell Sort](https://en.wikipedia.org/wiki/Shellsort)
-[Visual Algo](https://visualgo.net/en/sorting)
-[Toptal](https://www.toptal.com/developers/sorting-algorithms/shell-sort)
+- [Shell Sort](https://en.wikipedia.org/wiki/Shellsort)
+- [Visual Algo](https://visualgo.net/en/sorting)
+- [Toptal](https://www.toptal.com/developers/sorting-algorithms/shell-sort)
