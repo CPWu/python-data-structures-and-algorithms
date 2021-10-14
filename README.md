@@ -10,8 +10,8 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Big-O Notation](big-o-notation.md)
 
 ## Sorting
-- [Bubble Sort](Selection%20Sort)
-- [Selection Sort](Selection%20Sort)
+- [Bubble Sort](/Sorting/Bubble%20Sort)
+- [Selection Sort](Sorting/Selection%20Sort)
 - [Insertion Sort](Selection%20Sort)
 - [Merge Sort](Selection%20Sort)
 - [Heap Sort](Selection%20Sort)
