@@ -9,7 +9,7 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Asymptotic Analysis](asymptotic-analysis.md)
 - [Big-O Notation](big-o-notation.md)
 
-## Sorting
+## [Sorting](/Sorting)
 - [Bubble Sort](/Sorting/Bubble%20Sort)
 - [Selection Sort](Sorting/Selection%20Sort)
 - [Insertion Sort](Selection%20Sort)
