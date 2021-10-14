@@ -9,3 +9,12 @@
 - [Count Sort](Selection%20Sort)
 - [Bucket Sort](Selection%20Sort)
 - [Shell Sort](Selection%20Sort)
+
+|                 | Time Comepexity |   Space Complexity   |
+| --------------- | --------------- | -------------------- |
+| Bubble Sort     |
+| Selection Sort  |
+| Insert Sort     |
+| Heap Sort       |
+| Merge Sort      |
+| Quick Sort      |
