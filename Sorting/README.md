@@ -10,11 +10,11 @@
 - [Bucket Sort](Selection%20Sort)
 - [Shell Sort](Selection%20Sort)
 
-|                 | Time Comepexity |   Space Complexity   |
-| --------------- | --------------- | -------------------- |
-| Bubble Sort     |
-| Selection Sort  |
-| Insert Sort     |
-| Heap Sort       |
-| Merge Sort      |
-| Quick Sort      |
+|                | (Average) Time Comepexity | (Best) Time Comepexity | (Worst) Time Comepexity | Space Comepexity | Comments |
+| -------------- | ------------------------- | ---------------------- | ----------------------- | ---------------- | -------- |
+| Bubble Sort    | O(n^2)                    | O(n^2)                 | O(n^2)                  | Constant         | N/A      |
+| Selection Sort | O(n^2)                    | O(n^2)                 | O(n^2)                  | Constant         | N/A      |
+| Insert Sort    | O(n^2)                    | O(n)                 | O(n^2)                  | Constant         | N/A      |
+| Heap Sort      | O(n*log(n))               | O(n*log(n))            | O(n*log(n))             | Constant         | N/A      |
+| Merge Sort     | O(n*log(n))               | O(n*log(n)             | O(n*log(n))             | Depends         | N/A      |
+| Quick Sort     | O(n*log(n))               | O(n*log(n))            | O(n^2)                  | Constant         | N/A      |
