@@ -14,4 +14,3 @@ array = [4,6,2,7,4,1,9,11,23]
 insertion_sort(array)
 
 print(array)
-
