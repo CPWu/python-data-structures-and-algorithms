@@ -1,3 +1,4 @@
+## Divide and Conquer Approach ##
 def quickSort(array):
 	# First Pass is essentially the entire array.
     quickSortHelper(array,0,len(array)-1)

@@ -8,12 +8,6 @@ Merge sort is a recursive algorithm that continually splits a list in half. If t
 
 ## Complexity (Worst Case)
 
-## Pros 
-
-## Cons
-
-## Use Cases
-
 ## See Also
 
 [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)
