@@ -9,6 +9,56 @@ Formally, the output of any sorting algorithm must satisfy two conditions:
 
 For optimum efficiency, the input data should be stored in a data structure which allows random access rather than one that allows only sequential access.
 
+## Stable Sorting
+
+A sorting algorithm is said to be stable if two objects with equal keys appear in the same order output as they appear in the input array to be sorted. 
+
+Suppose we have a list of 5-letter words:
+
+```bash
+preach
+straw
+apple
+spork
+```
+
+If we sort the list by just the first letter of each word than the stable sort would produce:
+
+```bash
+apple
+preach
+straw
+spork
+```
+
+In an unstable sort algorithm, straw or spork may be interchanged, but in a stable one, they stay in the same relative positions (that is, since straw appears before spork in the input, it also appears before spork in the output).
+
+### Stable Sorting Algorithms
+
+- Insertion Sort
+- Merge Sort
+- Bubble Sort
+- Tim Sort
+- Counting Sort
+- Block Sort
+- Quadsort
+- Library Sort
+- Cocktail shaker Sort
+- Gnome Sort
+- Odd–even Sort
+  
+### Unstable Sorting Algorithms
+
+- Heap sort
+- Selection sort
+- Shell sort
+- Quick sort
+- Introsort (subject to Quicksort)
+- Tree sort
+- Cycle sort
+- Smoothsort
+- Tournament sort(subject to Hesapsort)
+
 ## Comparison of Sorts
 
 - [Bubble Sort](Bubble%20Sort)
