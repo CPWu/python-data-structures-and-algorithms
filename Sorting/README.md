@@ -79,18 +79,19 @@ In an unstable sort algorithm, straw or spork may be interchanged, but in a stab
 <strong>Insertion Sort:</strong> O(n^2)
 - Great for small arrays
 - Great for almost sorted
-- 
+
 <strong>Merge Sort:</strong>
 - O(nlogn) worst case
 - stable
 - uses aux space
-- 
+
 <strong>Quick Sort:</strong>
 - O(nlogn) average case
 - empirically fast
 - not stable
 - in place
-- <strong>Heap Sort</strong>
+
+<strong>Heap Sort</strong>
 - O(nlogn) worst case
 - not stable
 - in place
