@@ -9,6 +9,19 @@ Formally, the output of any sorting algorithm must satisfy two conditions:
 
 For optimum efficiency, the input data should be stored in a data structure which allows random access rather than one that allows only sequential access.
 
+## Sorting Algorithms
+
+- [Bubble Sort](Bubble%20Sort)
+- [Selection Sort](Selection%20Sort)
+- [Insertion Sort](Insertion%20Sort)
+- [Merge Sort](Merge%20Sort)
+- [Quick Sort](Quick%20Sort)
+- [Heap Sort](Heap%20Sort)
+- [Radix Sort](Selection%20Sort)
+- [Count Sort](Selection%20Sort)
+- [Bucket Sort](Selection%20Sort)
+- [Shell Sort](Selection%20Sort)
+  
 ## Stable Sorting
 
 A sorting algorithm is said to be stable if two objects with equal keys appear in the same order output as they appear in the input array to be sorted. 
@@ -61,25 +74,17 @@ In an unstable sort algorithm, straw or spork may be interchanged, but in a stab
 
 ## Comparison of Sorts
 
-- [Bubble Sort](Bubble%20Sort)
-- [Selection Sort](Selection%20Sort)
-- [Insertion Sort](Insertion%20Sort)
-- [Merge Sort](Merge%20Sort)
-- [Quick Sort](Quick%20Sort)
-- [Heap Sort](Heap%20Sort)
-- [Radix Sort](Selection%20Sort)
-- [Count Sort](Selection%20Sort)
-- [Bucket Sort](Selection%20Sort)
-- [Shell Sort](Selection%20Sort)
-
 <strong>Selection/Bubble Sort:</strong> O(n^2)
+
 <strong>Insertion Sort:</strong> O(n^2)
 - Great for small arrays
 - Great for almost sorted
+- 
 <strong>Merge Sort:</strong>
 - O(nlogn) worst case
 - stable
 - uses aux space
+- 
 <strong>Quick Sort:</strong>
 - O(nlogn) average case
 - empirically fast
