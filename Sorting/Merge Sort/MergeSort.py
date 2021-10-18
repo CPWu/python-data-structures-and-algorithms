@@ -1,46 +1,52 @@
 ## Divide and Conquer Approach ##
 def merge_sort(array):
-    # Check the length of the array is greater than 1, if it is then we divide the array into 2
-    if len(array) > 1:
-        mid = len(array)//2
+    # If array only has element then it is sorted.
+    if len(array) == 1:
+        return array
 
-        # Use Slicing built-in to Python lists
-        # Beginnng to middle of list
-        lefthalf = array[:mid]
-        # Middle to end of list
-        righthalf = array[mid:]
+    # Get index for for the middle of the array
+    middleIdx = len(array) // 2
 
-        # Recursive call on left and right half
-        merge_sort(lefthalf)
-        merge_sort(righthalf)
+    # Get Left and Right SubArrays using Python Slicing
+    leftArray = array[:middleIdx]
+    rightArray = array[middleIdx:]
 
-        # Index variables as counters
-        i = 0
-        j = 0
-        k = 0
+    # Recursively call until sub arrays have single element in each and then merge.
+    return mergeSortedArrays(merge_sort(leftArray), merge_sort(rightArray))
 
-        # Three while loops
-        # - One to check for midpoint
-        # - One to check for left half
-        # - One to check for right half
-        while i < len(lefthalf) and j < len(righthalf):
-            if lefthalf[i] < righthalf[j]:
-                array[k] = lefthalf[i]
-                i+=1
-            else:
-                array[k] = righthalf[j]
-                j+=1
-            k+=1
 
-        while i < len(lefthalf):
-            array[k] = lefthalf[i]
-            i+=1
-            k+=1
+def mergeSortedArrays(leftArray, rightArray):
+    # New Array that will contain the merge of the sorted arrays.
+    sortedArray = [None] * (len(leftArray) + len(rightArray))
+    # Index variables as counters
+    # - One to check for midpoint
+    # - One to check for left half
+    # - One to check for right half   
+    i = j = k = 0
+    
+    while i < len(leftArray) and j < len(rightArray):
+        if leftArray[i] <= rightArray[j]:
+            sortedArray[k] = leftArray[i]
+            i += 1
+        else:
+            sortedArray[k] = rightArray[j]
+            j += 1
+        # Move to next element in sortedArray since its the current idx of k should be filled
+        k += 1
 
-        while j < len(righthalf):
-            array[k] = righthalf[j]
-            j+=1
-            k+=1
+    # By the time we exit the while loop above we either exhausted the elements in left or rightHalf of the sub arrays.
+    while i < len(leftArray):
+        sortedArray[k] = leftArray[i]
+        i += 1
+        k += 1
+    
+    while j < len(rightArray):
+        sortedArray[k] = rightArray[j]
+        j += 1
+        k += 1
+
+    # return array after main while loop complete with sortedArray
+    return sortedArray
 
 array = [4,6,2,7,4,1,9,11,23]
 
