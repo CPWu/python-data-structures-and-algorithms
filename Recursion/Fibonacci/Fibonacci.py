@@ -7,7 +7,7 @@ def fibonacci_recursion(inputNumber):
     # Cast to int to prevent decimals.
     if (inputNumber <= 2):
         return int((inputNumber+1)/2)
-    # Recurivelty call function until we hit base cases.
+    # Recursively call function until we hit base case.   
     else:
         return fibonacci_recursion(inputNumber - 1) + fibonacci_recursion(inputNumber -2)
 
@@ -26,7 +26,7 @@ def fibonacci_dynamically(inputNumber):
     # Cast to int to prevent decimals.
     if inputNumber <= 2:
         cache[inputNumber] = int((inputNumber + 1)/2)
-    # Recurivelty call function until we hit base cases.
+    # Recursively call function until we hit base case.   
     else:
         cache[inputNumber] = fibonacci_dynamically(inputNumber - 1) + fibonacci_recursion(inputNumber - 2)
     return cache[inputNumber]
