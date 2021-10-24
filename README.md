@@ -21,6 +21,9 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Bucket Sort](Selection%20Sort)
 - [Shell Sort](Selection%20Sort)
 
+## Recursion
+- [Recursion](/Recursion)
+
 ### Searching
 - [Depth First Search](Depth%20First%20Search)
 - [Breadth First Search](Breadth%20First%20Search)
