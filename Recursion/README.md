@@ -21,7 +21,11 @@ Memoization effectively refers to remembering ("memoization" -> "memorandum" -> 
 
 - [Factorial](Factorial)
 - [Fibonacci](Fibonaaci)
-
+- [Cumulative Sum](Cumulative%20Sum)
+- [Summation](Summation)
+- [Reverse String](Reverse%20String)
+- [String Permutation](String%20Permutation)
+  
 ## See Also
 
 [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))

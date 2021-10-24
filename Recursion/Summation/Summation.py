@@ -3,7 +3,7 @@ def summation(inputNumber):
     # Base Case
     if inputNumber < 10:
         return inputNumber
-    # Recurivelty call function until we hit base case.    
+    # Recursively call function until we hit base case.    
     else:
         return inputNumber % 10 + summation(int(inputNumber/10))
 
