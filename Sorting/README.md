@@ -17,11 +17,12 @@ For optimum efficiency, the input data should be stored in a data structure whic
 - [Merge Sort](Merge%20Sort)
 - [Quick Sort](Quick%20Sort)
 - [Heap Sort](Heap%20Sort)
-- [Radix Sort](Selection%20Sort)
-- [Count Sort](Selection%20Sort)
+- [Radix Sort](Radix%20Sort)
+- [Three Number Sort](Three%20Number%20Sort)
 - [Bucket Sort](Selection%20Sort)
 - [Shell Sort](Selection%20Sort)
-  
+- [Count Sort](Selection%20Sort)
+- 
 ## Stable Sorting
 
 A sorting algorithm is said to be stable if two objects with equal keys appear in the same order output as they appear in the input array to be sorted. 
