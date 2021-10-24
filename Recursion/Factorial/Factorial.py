@@ -1,6 +1,5 @@
 ## Factorial - multiply all whole numbers from input number down to 1.
 def factorial(inputNumber):
-
     # Base Case
     if (inputNumber == 0):
         return 1
