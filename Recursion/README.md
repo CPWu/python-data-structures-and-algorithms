@@ -27,7 +27,8 @@ Memoization effectively refers to remembering ("memoization" -> "memorandum" -> 
 - [String Permutation](String%20Permutation)
 - [Coin Change](Coin%%20Change)
 - [Product Sum](Product%20Sum)
-  
+- [Permutations](Permutations)
+-   
 ## See Also
 
 [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
