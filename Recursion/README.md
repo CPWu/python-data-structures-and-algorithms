@@ -28,7 +28,17 @@ Memoization effectively refers to remembering ("memoization" -> "memorandum" -> 
 - [Coin Change](Coin%%20Change)
 - [Product Sum](Product%20Sum)
 - [Permutations](Permutations)
--   
+- [Powerset](Powerset)
+- [Phone Number Mnemonics]
+- [Staircase Traversal]
+- [Lowest Common Manager]
+- [Interweaving Strings]
+- [Solve Sudoku]
+- [Generate Div Tags]
+- [Ambigiuous Measurements]
+- [Number of Binary Tree Topology]
+- [Non-Attacking Queens]
+  
 ## See Also
 
 [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))

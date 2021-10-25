@@ -2,7 +2,7 @@
 def powerset(array, index = None):
     if index is None:
         index = len(array) - 1
-    elif index < 0:
+    if index < 0:
         return [[]]
     element = array[index]
     subsets = powerset(array, index - 1)
