@@ -29,7 +29,7 @@ Memoization effectively refers to remembering ("memoization" -> "memorandum" -> 
 - [Product Sum](Product%20Sum)
 - [Permutations](Permutations)
 - [Powerset](Powerset)
-- [Phone Number Mnemonics]
+- [Phone Number Mnemonics](Phone%20Number%20Mnemonics)
 - [Staircase Traversal]
 - [Lowest Common Manager]
 - [Interweaving Strings]

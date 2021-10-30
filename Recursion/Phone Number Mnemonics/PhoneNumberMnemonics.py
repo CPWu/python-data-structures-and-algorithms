@@ -9,7 +9,7 @@ def phoneNumberMnemonics(phoneNumber):
 
 def phoneNumberMnemonicsHelper(index, phoneNumber, currentMnemonic, mnemonicsFound):
     if index == len(phoneNumber):
-        mnemonic = " " .join(currentMnemonic)
+        mnemonic = "" .join(currentMnemonic)
         mnemonicsFound.append(mnemonic)
     else:
         digit = phoneNumber[index]
