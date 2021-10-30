@@ -9,21 +9,11 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Asymptotic Analysis](asymptotic-analysis.md)
 - [Big-O Notation](big-o-notation.md)
 
-## [Sorting](/Sorting)
-- [Bubble Sort](/Sorting/Bubble%20Sort)
-- [Selection Sort](Sorting/Selection%20Sort)
-- [Insertion Sort](Selection%20Sort)
-- [Merge Sort](Selection%20Sort)
-- [Heap Sort](Selection%20Sort)
-- [Quick Sort](Selection%20Sort)
-- [Radix Sort](Selection%20Sort)
-- [Count Sort](Selection%20Sort)
-- [Bucket Sort](Selection%20Sort)
-- [Shell Sort](Selection%20Sort)
-
-## Recursion
+## Topics
+- [Sorting](/Sorting)
 - [Recursion](/Recursion)
-
+- [Trees](/Trees)
+  
 ### Searching
 - [Depth First Search](Depth%20First%20Search)
 - [Breadth First Search](Breadth%20First%20Search)
