@@ -9,22 +9,29 @@ If you're a computer science student who needs to learn this stuff for exams -- 
 - [Asymptotic Analysis](asymptotic-analysis.md)
 - [Big-O Notation](big-o-notation.md)
 
+## Organization Strategy
+
+This repository is organized in such a manner that if you follow it with a top-down approach it should provide you a relatively gradual approach to learning Data Structures and Algorithms. There are a few topics that may contain problems that could fit in multiple topics but given that the static layout structure of READMEs, it's organized in a way that will work for my brain. 
+
+Within each Topic contains a README file, the README will discuss in more depth the concepts foundational for the topic and start off with either the Abstract Data Structure (ADT) or implementations of the basic algorithms. After that there will be a separate legend that will contain a mixture of various solved problems that can be categorized under that topic.
+
 ## Topics
+
+- [Python Overview]()
 - [Sorting](/Sorting)
+- [Searching]
 - [Recursion](/Recursion)
 - [Trees](/Trees)
-  
-### Searching
-- [Depth First Search](Depth%20First%20Search)
-- [Breadth First Search](Breadth%20First%20Search)
-- [Binary Search](Binary%20Search)
-  
-### Recursion
-- [Recursion](Recursion)
-
-### Strings
-
-## Data Structures
+- [Graphs]()
+- [Arrays]()
+- [Linked Lists]()
+- [Dynamic Programming]()
+- [Stacks]()
+- [Heaps]()
+- [Strings]()
+- [Tries]()
+- [Greedy Algorithms]()
+- [Famous Algorithms]()
 
 ### Arrays or ArrayLists / Lists / Sets / Dictionaries
 - [Arrays](Array)
