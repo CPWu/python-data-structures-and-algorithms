@@ -35,9 +35,12 @@ Trees store data hierarchically as opposed to linearly. The tree data structure 
 <strong>Leaf Node</strong>
 - A leaf node is a node that has no children.
 
+<strong>Depth</strong>
+- Number of levels in a tree.
+  
 ### Types of Trees
 
-#### Binary Tree
+#### [Binary Tree](Binary%20Tree)
 
 A Binary Tree is a non-linear data structure in which a node can either have **0, 1** or **maximum 2 nodes.** Each node in a binary tree is represented either as a parent node or a child node. There can be two children of the parent node, i.e., **left child** and **right child.**
 

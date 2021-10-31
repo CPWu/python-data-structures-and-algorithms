@@ -1,67 +1,80 @@
 # Binary Tree
-
-Goal: 
-
+ 
 ## Overview
 
 A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.
 
-Top Node (Root):
-- Top Node of the Tree
-- Binary Trees contain at most two children.
+Ex.
+                                        1
+                                    /       \
+                                2               3
+                            /       \
+                        5              6
 
-Node
-- A node is a fundamental part of a tree. It can hae a name, which we call the 'key'
-- A node may also have additional information. We call this additional information the 'payload'
-- While the payload infomration is not central to many tree algorithms, it is often critical in applications that make use of trees.
+## Properties of Binary Tree
 
-Edge
-- An edge is another fundamental part of a tree.
-- An edge connects two nodes to show that there is a relationship between them.
-- Every node (except the root) is connected by exactly one incoming edge from another node.
-- Each node may have several outgoing edges.
+- At each level d, the maximum number of nodes is 2^d.
+- The height of the tree is defined as the longest path from the root node to the leaf node. The tree which is shown above has a height equal to 3. Therefore, the maximum number of nodes at height 3 is equal to (1+2+4+8) = 15. In general, the maximum number of nodes possible at height h is (2^0 + 2^1 + 2^2+ + 2^h) - 1.
+- The minimum number of nodes possible at height h is equal to h+1.
+- If the number of nodes is minimum, then the height of the tree would be maximum. Conversely, if the number nodes is maximum, then the height of the tree would be minimum.
 
-Root 
-- The root of the tree is the only node in the tree that has no incoming edges.
+## Types of Binary Tree
 
-Path 
-- A path is an ordered list of nodes that are connected by edges.
+<strong>Full/Proper/Strict Binary Tree</strong>
+- The tree can only be considered as the full binary tree if each node must contain either 0 or 2 children. The full binary tree can also be defined as the tree in which each node must contain 2 children except the leaf nodes.
 
-Children 
-- The set of nodes that have incoming edges from the same node to are said to be children of that node.
+Ex.
+                                        1
+                                    /       \
+                                2               3
+                            /       \
+                        5              6
 
-Sibling
-- Nodes in the tree that are children of the same parent are said to be siblings
+<strong>Complete Tree</strong>
+- The complete binary tree is a tree in which all the nodes are completely filled except the last level. In the last level, all the nodes must be as left as possible. In a complete binary tree, the nodes should be added from the left.
 
-SubTree
-- A subtree is a set of nodes and edges comprised of a parent and all the descendants of that parent.
+Ex.
+                                            10
+                                    /               \
+                                  20                    30
+                            /           \           /         \
+                         40              50     60              70      
+                     / 
+                80           
 
-Leaf Node
-- A leaf node is a node that has no children.
+<strong>Perfect Binary Tree</strong>
+- A tree is a perfect binary tree if all the internal nodes have 2 children, and all the leaf nodes are at the same level.
 
-Depth
-- Number of levels in a tree.
+Ex.
+                                            10
+                                    /               \
+                                  20                    30
+                            /           \           /         \
+                         40              50     60              70      
 
-Complete Tree
-- Every level except possibly the last is completely filled and all nodes in the last level are as far left as possible.
+<strong>Degenerate Binary Tree</strong>
+- The degenerate binary tree is a tree in which all the internal nodes have only one children.
 
-Full Binary Tree
-- A full binary tree (sometimes referred to as a proper or plane binary tree) is a tree in which every node has either 0 or 2 children.
+Ex.
+                                        1
+                                    /   
+                                2             
+                            /      
+                        5           
 
-Binary Tree Traversals 
+<strong>Balanced Binary Tree</strong>
+- The balanced binary tree is a tree in which both the left and right trees differ by atmost 1. For example, AVL and Red-Black trees are balanced binary tree.
+
+Ex.
+                                            10
+                                    /               \
+                                  20                   30
+                            /           \                    \
+                         40              50                     70   
+                         
+## Binary Tree Traversals 
 - Process of visiting (checking and/or updating) each node in a tree data structure, exactly once.
 
-Example Tree
-
-```
-               F
-           /       \
-          B         G
-        /   \         \
-       A     D         I
-            / \       /
-           C   E     H
-```
 Depth First Search
 - Preorder Traversal
     - Check if current node is empty/null
