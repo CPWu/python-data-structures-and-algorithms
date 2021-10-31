@@ -75,7 +75,15 @@ Ex.
 ## Binary Tree Traversals 
 - Process of visiting (checking and/or updating) each node in a tree data structure, exactly once.
 
-Depth First Search
+#                                            F
+#                                    /               \
+#                                  B                   G
+#                            /           \                   \
+#                         A                 D                   I   
+#                                    /            \         /        
+#                                 C                  E    H              
+
+ <strong>Depth First Search</strong>
 - Preorder Traversal
     - Check if current node is empty/null
     - Display the data port of the root or node
@@ -92,8 +100,18 @@ Depth First Search
     - Traverse the left subtree by recursively calling the post-order function
     - Traverse the right subtree by recursively calling the post-order function
     - Display the data part of the root (or current node)
-Breadth First Search
+    - 
+<strong>Breadth First Search</strong>
+- Level Order Traversal
+  
+## Complexity (Worst Case)
 
+Task  | Big-O | Name |
+------| ----- | ----- |
+**Accessing** | O(n) | linear | 
+**Searching** | O(n) | linear |  
+**Inserting** | O(1) | constant |
+**Deleting**  | O(1) | constant |
 
 ## See Also
 
