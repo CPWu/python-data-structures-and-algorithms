@@ -7,7 +7,7 @@ Goal: Use Python for Trees.
 Trees store data hierarchically as opposed to linearly. The tree data structure has a root, branches and leaves. The difference between a tree in nature and a tree in computer science is that a tree data structure has its root at the top and its leaves at the bottom. Another property of trees is that all of the children of one node are independent of the children of another node. And finally, a third property is that each leaf node is unique.
 
 <strong>Node</strong>
-- A node is a fundamental part of a tree. It can hae a name, which we call the 'key'
+- A node is a fundamental part of a tree. It can have a name, which we call the 'key'
 - A node may also have additional information. We call this additional information the 'payload'
 - While the payload infomration is not central to many tree algorithms, it is often critical in applications that make use of trees.
 
@@ -35,17 +35,21 @@ Trees store data hierarchically as opposed to linearly. The tree data structure 
 <strong>Leaf Node</strong>
 - A leaf node is a node that has no children.
 
-## Types of Trees
+### Types of Trees
+
+#### Binary Tree
+
+A Binary Tree is a non-linear data structure in which a node can either have **0, 1** or **maximum 2 nodes.** Each node in a binary tree is represented either as a parent node or a child node. There can be two children of the parent node, i.e., **left child** and **right child.**
+
+#### Binary Search Tree</strong>
+
+A Binary Search Tree is a tree that follows some order to arrange the elements, whereas the binary tree does not follow any order. In a Binary Search Tree, the value of the left node must be smaller than the parent node, and the value of the right node must be greater than the parent node.
 
 <strong>Binary Tree</strong>
+<strong>Binary Tree</strong>
+<strong>Binary Tree</strong>
+<strong>Binary Tree</strong>
 
-A Binary Tree is a non-linear data structure in which a node can either have **0, 1** or **maximum 2 nodes.**
-
-<strong>Binary Tree</strong>
-<strong>Binary Tree</strong>
-<strong>Binary Tree</strong>
-<strong>Binary Tree</strong>
-<strong>Binary Tree</strong>
 Concepts:
 - Dictionaries and Sets
 - Array and Linked List
@@ -61,8 +65,6 @@ Concepts:
 - Preorder, Inorder and PostOrder Depth First Search
 - Successor and Predecessor Revisted
 - Reconstructing Binary Tree from Traversals
-  
-## Tree Examples
   
 ## See Also
 
