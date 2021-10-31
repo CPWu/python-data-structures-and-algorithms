@@ -41,14 +41,9 @@ Trees store data hierarchically as opposed to linearly. The tree data structure 
 
 A Binary Tree is a non-linear data structure in which a node can either have **0, 1** or **maximum 2 nodes.** Each node in a binary tree is represented either as a parent node or a child node. There can be two children of the parent node, i.e., **left child** and **right child.**
 
-#### Binary Search Tree</strong>
+#### [Binary Search Tree](Binary%20Search%20Tree)
 
 A Binary Search Tree is a tree that follows some order to arrange the elements, whereas the binary tree does not follow any order. In a Binary Search Tree, the value of the left node must be smaller than the parent node, and the value of the right node must be greater than the parent node.
-
-<strong>Binary Tree</strong>
-<strong>Binary Tree</strong>
-<strong>Binary Tree</strong>
-<strong>Binary Tree</strong>
 
 Concepts:
 - Dictionaries and Sets
