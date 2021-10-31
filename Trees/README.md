@@ -6,34 +6,46 @@ Goal: Use Python for Trees.
 
 Trees store data hierarchically as opposed to linearly. The tree data structure has a root, branches and leaves. The difference between a tree in nature and a tree in computer science is that a tree data structure has its root at the top and its leaves at the bottom. Another property of trees is that all of the children of one node are independent of the children of another node. And finally, a third property is that each leaf node is unique.
 
-Node
+<strong>Node</strong>
 - A node is a fundamental part of a tree. It can hae a name, which we call the 'key'
 - A node may also have additional information. We call this additional information the 'payload'
 - While the payload infomration is not central to many tree algorithms, it is often critical in applications that make use of trees.
 
-Edge
+<strong>Edge</strong>
 - An edge is another fundamental part of a tree.
 - An edge connects two nodes to show that there is a relationship between them.
 - Every node (except the root) is connected by exactly one incoming edge from another node.
 - Each node may have several outgoing edges.
 
-Root 
+<strong>Root</strong>
 - The root of the tree is the only node in the tree that has no incoming edges.
 
-Path 
+<strong>Path</strong>
 - A path is an ordered list of nodes that are connected by edges.
 
-Children 
+<strong>Children</strong>
 - The set of nodes that have incoming edges from the same node to are said to be children of that node.
 
-Sibling
+<strong>Sibling</strong>
 - Nodes in the tree that are children of the same parent are said to be siblings
 
-SubTree
+<strong>Sub-Tree</strong>
 - A subtree is a set of nodes and edges comprised of a parent and all the descendants of that parent.
 
-Leaf Node
+<strong>Leaf Node</strong>
 - A leaf node is a node that has no children.
+
+## Types of Trees
+
+<strong>Binary Tree</strong>
+
+A Binary Tree is a non-linear data structure in which a node can either have **0, 1** or **maximum 2 nodes.**
+
+<strong>Binary Tree</strong>
+<strong>Binary Tree</strong>
+<strong>Binary Tree</strong>
+<strong>Binary Tree</strong>
+<strong>Binary Tree</strong>
 Concepts:
 - Dictionaries and Sets
 - Array and Linked List
@@ -55,4 +67,3 @@ Concepts:
 ## See Also
 
 [Tree](https://en.wikipedia.org/wiki/Tree_(data_structure))
-
