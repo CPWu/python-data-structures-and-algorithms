@@ -4,7 +4,7 @@ Goal:
 
 ## Overview
 
-Trees store data hierarchically as opposed to linearly. The tree data structure has a root, branches and leaves. The difference between a tree in natuer and a tree in computer science is that a tree data structure has its root at the top and its leaves at the bottom. Another property of trees is that all of the children of one node are independent of the children of another node. And finally, a third property is that each leaf node is unique.
+Trees store data hierarchically as opposed to linearly. The tree data structure has a root, branches and leaves. The difference between a tree in nature and a tree in computer science is that a tree data structure has its root at the top and its leaves at the bottom. Another property of trees is that all of the children of one node are independent of the children of another node. And finally, a third property is that each leaf node is unique.
 
 Node
 - A node is a fundamental part of a tree. It can hae a name, which we call the 'key'
