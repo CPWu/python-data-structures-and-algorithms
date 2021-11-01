@@ -1,3 +1,35 @@
+# Stack - Needed for Reverse Level Order Traversal
+class Stack(object):
+    # Repurposing Python List for Stack
+    def __init__(self):
+        self.items = []
+    
+    # Add item to Stack, end of list (LIFO)
+    def push(self, item):
+        self.items.append(item)
+
+    # Remove item from stack, end of list 
+    def pop(self):
+        if not self.is_empty():
+            return self.items.pop()
+    
+    # Check to see if Stack/List is empty
+    def is_empty(self):
+        return len(self.items) == 0
+
+    # Python supports negative arrays indexes, -1 returns last item in list.
+    def peek(self):
+        if not self.is_empty():
+            return self.items[-1]
+
+    # Overrides length operator  
+    def __len__(self):
+        return self.size()
+
+    # Helper function to support overriding len function.
+    def size(self):
+        return len(self.items)
+
 # Queue - Needed for Level Order Traversal
 class Queue(object):
     # Repurposing Python List for Queue
@@ -54,6 +86,8 @@ class BinaryTree(object):
             return self.postorder_print(tree.root, "")
         elif traversal_type == "levelorder":
             return self.levelorder_print(tree.root)
+        elif traversal_type == "reverselevelorder":
+            return self.reverse_levelorder_print(tree.root)
         else:
             print("Traversal type " + str(traversal_type) + " is not supported.")
 
@@ -110,6 +144,37 @@ class BinaryTree(object):
                 queue.enqueue(node.right)
         
         return traversal
+
+    # Breadth First Search - Reverse Level Order Traversal - 
+    def reverse_levelorder_print(self, start):
+        if start is None:
+            return
+        
+        queue = Queue()
+        stack = Stack()
+
+        # Enqueue the root node
+        queue.enqueue(start)
+        
+        traversal = ""
+
+        # If queue is not empty loop and put all the children into the stack
+        while len(queue) > 0:
+            node = queue.dequeue()
+            stack.push(node)
+
+            # Process right node first to ensure proper traversal
+            if node.right:
+                queue.enqueue(node.right)
+            if node.left:
+                queue.enqueue(node.left)
+
+        # While stack is not empty pop the nodes out and append to traversal for printing out the values
+        while len(stack) > 0:
+            node = stack.pop()
+            traversal += str(node.value) + "-"
+        return traversal
+
 #                       1
 #               /               \
 #           2                       3
@@ -130,3 +195,4 @@ print("Preorder Traversal: " + tree.print_tree("preorder"))
 print("Inorder Travsersal: " + tree.print_tree("inorder"))
 print("Postorder Travsersal: " + tree.print_tree("postorder"))
 print("Levelorder Travsersal: " + tree.print_tree("levelorder"))
+print("Reverse Levelorder Travsersal: " + tree.print_tree("reverselevelorder"))
