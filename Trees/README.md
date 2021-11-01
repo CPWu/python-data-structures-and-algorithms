@@ -48,23 +48,31 @@ A Binary Tree is a non-linear data structure in which a node can either have **0
 
 A Binary Search Tree is a tree that follows some order to arrange the elements, whereas the binary tree does not follow any order. In a Binary Search Tree, the value of the left node must be smaller than the parent node, and the value of the right node must be greater than the parent node.
 
-Concepts:
-- Dictionaries and Sets
-- Array and Linked List
-- Hash Tables
-- Binary Search Trees
-- Binary Search Tree - Search
-- Binary Search Tree - Insert
-- Binary Search Tree - Min and Max
-- Binary Search Tree - Successor & Predecessor
-- Binary Search Tree - Delete
-- Hierarchical data
-- Breadth First Search
-- Preorder, Inorder and PostOrder Depth First Search
-- Successor and Predecessor Revisted
-- Reconstructing Binary Tree from Traversals
-
 ## Practice Problems
+
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Preorder Traversal of a Binary Tree]
+- [Height and Size of Binary Tree](_Height%20and%20Size%20of%20Binary%20Tree)
+- [Binary Search Tree Property Check](_Binary%20Search%20Tree%20Property%20Check)
   
 ## See Also
 

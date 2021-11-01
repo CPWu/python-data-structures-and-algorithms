@@ -41,41 +41,29 @@ class BST(object):
             self._inorder_print_tree(cur_node.left)
             print(str(cur_node.data))
             self._inorder_print_tree(cur_node.right)
-        
-    def find(self, data):
-        if self.root:
-            is_found = self._find(data, self.root)
-            if is_found:
-                return True
-            return False
-        else:
-            return None
-    
-    def _find(self, data, current_node):
-        if data > current_node.data and current_node.right:
-            return self._find(data, current_node.right)
-        elif data < current_node.data and current_node.left:
-            return self._find(data, current_node.left)
-        if data == current_node.data:
-            return True
 
     def is_bst_satisfied(self):
-        def helper(node, lower=float('-inf'), upper=float('inf')):
-            if not node:
+        if self.root:
+            is_satisfied = self._is_bst_satisfied(self.root, self.root.data)
+
+            if is_satisfied is None:
                 return True
-            
-            val = node.data
-            if val <= lower or val >= upper:
-                return False
+            return False
 
-            if not helper(node.right, val, upper):
+        return True
+    
+    def _is_bst_satisfied(self, current_node, data):
+        if current_node.left:
+            if data > current_node.left.data:
+                return self._is_bst_satisfied(current_node.left, current_node.left.data)
+            else:
                 return False
-            if not helper(node.left, lower, val):
+        if current_node.right:
+            if data < current_node.right.data:
+                return self._is_bst_satisfied(current_node.right, current_node.right.data)
+            else:
                 return False
-            return True
-
-        return helper(self.root)
-
+                
 bst = BST()
 bst.insert(4)
 bst.insert(2)

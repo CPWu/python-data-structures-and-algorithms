@@ -106,6 +106,22 @@ In an unstable sort algorithm, straw or spork may be interchanged, but in a stab
 | Merge Sort     | O(n*log(n))               | O(n*log(n))            | O(n*log(n))             | Depends          | N/A      |
 | Quick Sort     | O(n*log(n))               | O(n*log(n))            | O(n^2)                  | Constant         | N/A      |
 
+## Practice Problems
+
+- [2 Sum In A Sorted Array]
+- [2 Sum In A Sorted Array]
+- [2 Sum In A Sorted Array]
+- [2 Sum In A Sorted Array]
+- [2 Sum In A Sorted Array]
+- [2 Sum In A Sorted Array]
+- [2 Sum In A Sorted Array]
+- [2 Sum In A Sorted Array]
+- [2 Sum In A Sorted Array]
+- [2 Sum In A Sorted Array]
+- [2 Sum In A Sorted Array]
+- [2 Sum In A Sorted Array]
+- [2 Sum In A Sorted Array]
+  
 ## See Also
 
 - [Sorting Algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)

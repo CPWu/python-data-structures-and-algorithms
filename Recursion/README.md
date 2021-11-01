@@ -17,8 +17,25 @@ Recursion provides a powerful alternative for performing repetitions of tasks in
 ## Memoization
 
 Memoization effectively refers to remembering ("memoization" -> "memorandum" -> to be remembered) results of method calls based on the method inputs and then returning the rememebred result rather than computing the result again. You can think of it as cache for method results. We'll use this in some of the interview problems as improved versions of a purely recursive solution. 
-## Recursion Examples
 
+## Practice Problems 
+
+- [Non-Attacking Queens]
+- [Non-Attacking Queens]
+- [Non-Attacking Queens]
+- [Non-Attacking Queens]
+- [Non-Attacking Queens]
+- [Non-Attacking Queens]
+- [Non-Attacking Queens]
+- [Non-Attacking Queens]
+- [Non-Attacking Queens]
+- [Non-Attacking Queens]
+- [Non-Attacking Queens]
+- [Non-Attacking Queens]
+- [Non-Attacking Queens]
+- [Non-Attacking Queens]
+- [Non-Attacking Queens]
+  
 - [Factorial](Factorial)
 - [Fibonacci](Fibonaaci)
 - [Cumulative Sum](Cumulative%20Sum)
