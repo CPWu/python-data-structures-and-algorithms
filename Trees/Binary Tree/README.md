@@ -100,13 +100,14 @@ Ex.
     - Traverse the left subtree by recursively calling the post-order function
     - Traverse the right subtree by recursively calling the post-order function
     - Display the data part of the root (or current node)
-    - 
+    - Postorder: A, B, C, D, E, G, I, H, F
 <strong>Breadth First Search</strong>
 - Level Order Traversal
     - Enqueue the node to Queue
     - If queue is not empty, output value of node 
     - Dequeue the first node check for left and right node and queue if exists.
     - Iterate.
+    - Levelorder: F, B, G, A, D, I, C, E, H
 - Reverse Level Order Traversal
     - Enqueue root node
     - Dequeue the Queue while not empty
@@ -114,6 +115,7 @@ Ex.
     - Process right node first then left
     - Dequeue Queue again and repeat
     - When queue is empty pop values off of stack.
+    - Reverse Levelorder: C, E, H, A, D, I, B, G, F
 ## Complexity (Worst Case)
 
 Task  | Big-O | Name |

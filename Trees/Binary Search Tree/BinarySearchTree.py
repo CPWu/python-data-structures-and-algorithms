@@ -75,7 +75,8 @@ class BinarySearchTree:
         if current_node:
             self._inorder_print_tree(current_node.left)
             print(str(current_node.data))
-            self._inorder_print_tree(current_node.right)    
+            self._inorder_print_tree(current_node.right)   
+             
 # Instantiate Binary Search Tree
 binarySearchTree = BinarySearchTree()
 

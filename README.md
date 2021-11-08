@@ -15,7 +15,7 @@ This repository is organized in such a manner that if you follow it with a top-d
 
 Within each Topic contains a README file, the README will discuss in more depth the concepts foundational for the topic and start off with either the Abstract Data Structure (ADT) or implementations of the basic algorithms. After that there will be a separate legend that will contain a mixture of various solved problems that can be categorized under that topic.
 
-## Topics
+## Data Structures and Algorithms
 
 - [Python Overview]()
 - [Sorting](/Sorting)
@@ -33,3 +33,6 @@ Within each Topic contains a README file, the README will discuss in more depth 
 - [Greedy Algorithms]()
 - [Famous Algorithms]()
 
+## Useful Time and Space Complexity - Cheat Sheet
+
+[Cheat Sheet](http://souravsengupta.com/cds2016/lectures/Complexity_Cheatsheet.pdf)
