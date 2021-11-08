@@ -32,6 +32,23 @@ In sequential representation, we use an adjacency matrix to store the mapping re
 
 In the linked representation, an adjacency list is used to store the Graph into the computer's memory. 
 
+## Practice Problems
+
+- [Count Islands]
+- [Search For The Largest Island]
+- [Count Connected Components In An Undirected Graph]
+- [Is It A Tree]
+- [Complete All Courses With Dependencies]
+- [Friendly Groups]
+- [Flood Fill]
+- [Knights Tour On A Chess Board]
+- [String Transformation]
+- [Course Schedule]
+- [Zombie Clusters]
+- [Critical Connections]
+- [Shortest Path In 2D Grid With Keys And Doors]
+
+
 ## See Also
 
 [Graphs](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))

@@ -20,21 +20,22 @@ Memoization effectively refers to remembering ("memoization" -> "memorandum" -> 
 
 ## Practice Problems 
 
-- [Non-Attacking Queens]
-- [Non-Attacking Queens]
-- [Non-Attacking Queens]
-- [Non-Attacking Queens]
-- [Non-Attacking Queens]
-- [Non-Attacking Queens]
-- [Non-Attacking Queens]
-- [Non-Attacking Queens]
-- [Non-Attacking Queens]
-- [Non-Attacking Queens]
-- [Non-Attacking Queens]
-- [Non-Attacking Queens]
-- [Non-Attacking Queens]
-- [Non-Attacking Queens]
-- [Non-Attacking Queens]
+- [Permute Array of Unique Integers]
+- [Letter Case Permutation]
+- [N Choose K Combinations]
+- [Permute Array Of Integers Duplicates Allowed]
+- [Subsets With Duplicate Characters]
+- [Words From Phone Number]
+- [Generate All Combinations With Sum Equal To Target]
+- [Generate All Subset Of A Set]
+- [Palindromic Decomposition Of A String]
+- [How Many Binary Search Trees With n Nodes]
+- [Solve Sudoku Puzzle]
+- [n Queen Problem]
+- [Generate All Possible Expressions That Evaluate to The Given Target Value]
+- [Possible To Achieve Target Sum]
+- [Find All Well Formed Brackets]
+
   
 - [Factorial](Factorial)
 - [Fibonacci](Fibonaaci)
