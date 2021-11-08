@@ -34,5 +34,5 @@ In the linked representation, an adjacency list is used to store the Graph into 
 
 ## See Also
 
-[Dictionaries](https://en.wikipedia.org/wiki/Associative_arrays)
+[Graphs](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
 
