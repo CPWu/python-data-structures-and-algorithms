@@ -109,6 +109,8 @@ In an unstable sort algorithm, straw or spork may be interchanged, but in a stab
 ## Practice Problems
 
 - [Group The Numbers](Group%20The%20Numbers)
+- [Implement Merge Sort](Implement%20Merge%20Sort)
+- [Merge One Sorted Array Into Another]()
 - [2 Sum In A Sorted Array]
 - [2 Sum In An Array]
 - [Merge k Sorted Singly Linked Lists]
@@ -118,7 +120,6 @@ In an unstable sort algorithm, straw or spork may be interchanged, but in a stab
 - [Kth Largest In An Array]
 - [Online Median]
 - [Intersection Of Tree Sorted Arrays]
-- [Group The Numbers]
 - [Implement Merge Sort]
 - [Merge One Sorted Array Into Another]
 - [Dutch National Flag]
