@@ -13,7 +13,7 @@
 # # Variables
 # yearlySalary = 90000
 # currency = "CAD"
-# print(f"It would be great if Canada's average salary was: {yearlySalary} {currency}")
+# print(f"It would be great if Canada's average salary was: {yearlySalary} {cur rency}")
 
 # # Functions
 # def calculateSalary(hourly, hours):
